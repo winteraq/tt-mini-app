@@ -16,20 +16,20 @@
             <wux-cell title="Stable" hover-class="none">
                 <wux-input-number color="stable" slot="footer" />
             </wux-cell>
-            <wux-cell title="Positive" hover-class="none">
-                <wux-input-number color="positive" slot="footer" />
+            <wux-cell title="primary" hover-class="none">
+                <wux-input-number color="primary" slot="footer" />
             </wux-cell>
-            <wux-cell title="Calm" hover-class="none">
-                <wux-input-number color="calm" slot="footer" />
+            <wux-cell title="info" hover-class="none">
+                <wux-input-number color="info" slot="footer" />
             </wux-cell>
-            <wux-cell title="Balanced" hover-class="none">
-                <wux-input-number color="balanced" slot="footer" />
+            <wux-cell title="success" hover-class="none">
+                <wux-input-number color="success" slot="footer" />
             </wux-cell>
-            <wux-cell title="Energized" hover-class="none">
-                <wux-input-number color="energized" slot="footer" />
+            <wux-cell title="warning" hover-class="none">
+                <wux-input-number color="warning" slot="footer" />
             </wux-cell>
-            <wux-cell title="Assertive" hover-class="none">
-                <wux-input-number color="assertive" slot="footer" />
+            <wux-cell title="error" hover-class="none">
+                <wux-input-number color="error" slot="footer" />
             </wux-cell>
             <wux-cell title="Royal" hover-class="none">
                 <wux-input-number color="royal" slot="footer" />
@@ -45,20 +45,20 @@
             <wux-cell title="Stable" hover-class="none">
                 <wux-input-number shape="circle" color="stable" slot="footer" />
             </wux-cell>
-            <wux-cell title="Positive" hover-class="none">
-                <wux-input-number shape="circle" color="positive" slot="footer" />
+            <wux-cell title="primary" hover-class="none">
+                <wux-input-number shape="circle" color="primary" slot="footer" />
             </wux-cell>
-            <wux-cell title="Calm" hover-class="none">
-                <wux-input-number shape="circle" color="calm" slot="footer" />
+            <wux-cell title="info" hover-class="none">
+                <wux-input-number shape="circle" color="info" slot="footer" />
             </wux-cell>
-            <wux-cell title="Balanced" hover-class="none">
-                <wux-input-number shape="circle" color="balanced" slot="footer" />
+            <wux-cell title="success" hover-class="none">
+                <wux-input-number shape="circle" color="success" slot="footer" />
             </wux-cell>
-            <wux-cell title="Energized" hover-class="none">
-                <wux-input-number shape="circle" color="energized" slot="footer" />
+            <wux-cell title="warning" hover-class="none">
+                <wux-input-number shape="circle" color="warning" slot="footer" />
             </wux-cell>
-            <wux-cell title="Assertive" hover-class="none">
-                <wux-input-number shape="circle" color="assertive" slot="footer" />
+            <wux-cell title="error" hover-class="none">
+                <wux-input-number shape="circle" color="error" slot="footer" />
             </wux-cell>
             <wux-cell title="Royal" hover-class="none">
                 <wux-input-number shape="circle" color="royal" slot="footer" />

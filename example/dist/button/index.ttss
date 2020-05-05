@@ -155,144 +155,144 @@
 .wux-button--stable.wux-button--clear.wux-button--hover {
   opacity: .3!important
 }
-.wux-button--positive,
-.wux-button--positive--disabled {
+.wux-button--primary,
+.wux-button--primary--disabled {
   border-color: transparent!important;
   background-color: #4164ff!important;
   color: #fff!important
 }
-.wux-button--positive.wux-button--hover {
+.wux-button--primary.wux-button--hover {
   background-color: #0e3aff!important;
   color: #fff!important
 }
-.wux-button--positive.wux-button--outline,
-.wux-button--positive.wux-button--outline.wux-button--disabled {
+.wux-button--primary.wux-button--outline,
+.wux-button--primary.wux-button--outline.wux-button--disabled {
   border-color: #4164ff!important;
   background-color: transparent!important;
   color: #4164ff!important
 }
-.wux-button--positive.wux-button--outline.wux-button--hover {
+.wux-button--primary.wux-button--outline.wux-button--hover {
   background-color: #4164ff!important;
   color: #fff!important
 }
-.wux-button--positive.wux-button--clear,
-.wux-button--positive.wux-button--clear.wux-button--disabled {
+.wux-button--primary.wux-button--clear,
+.wux-button--primary.wux-button--clear.wux-button--disabled {
   background-color: transparent!important;
   color: #0e3aff!important
 }
-.wux-button--positive.wux-button--clear.wux-button--hover {
+.wux-button--primary.wux-button--clear.wux-button--hover {
   opacity: .3!important
 }
-.wux-button--calm,
-.wux-button--calm--disabled {
+.wux-button--info,
+.wux-button--info--disabled {
   border-color: transparent!important;
   background-color: #10d5d5!important;
   color: #fff!important
 }
-.wux-button--calm.wux-button--hover {
+.wux-button--info.wux-button--hover {
   background-color: #0ca6a6!important;
   color: #fff!important
 }
-.wux-button--calm.wux-button--outline,
-.wux-button--calm.wux-button--outline.wux-button--disabled {
+.wux-button--info.wux-button--outline,
+.wux-button--info.wux-button--outline.wux-button--disabled {
   border-color: #10d5d5!important;
   background-color: transparent!important;
   color: #10d5d5!important
 }
-.wux-button--calm.wux-button--outline.wux-button--hover {
+.wux-button--info.wux-button--outline.wux-button--hover {
   background-color: #10d5d5!important;
   color: #fff!important
 }
-.wux-button--calm.wux-button--clear,
-.wux-button--calm.wux-button--clear.wux-button--disabled {
+.wux-button--info.wux-button--clear,
+.wux-button--info.wux-button--clear.wux-button--disabled {
   background-color: transparent!important;
   color: #0ca6a6!important
 }
-.wux-button--calm.wux-button--clear.wux-button--hover {
+.wux-button--info.wux-button--clear.wux-button--hover {
   opacity: .3!important
 }
-.wux-button--assertive,
-.wux-button--assertive--disabled {
+.wux-button--error,
+.wux-button--error--disabled {
   border-color: transparent!important;
   background-color: #f65656!important;
   color: #fff!important
 }
-.wux-button--assertive.wux-button--hover {
+.wux-button--error.wux-button--hover {
   background-color: #f32626!important;
   color: #fff!important
 }
-.wux-button--assertive.wux-button--outline,
-.wux-button--assertive.wux-button--outline.wux-button--disabled {
+.wux-button--error.wux-button--outline,
+.wux-button--error.wux-button--outline.wux-button--disabled {
   border-color: #f65656!important;
   background-color: transparent!important;
   color: #f65656!important
 }
-.wux-button--assertive.wux-button--outline.wux-button--hover {
+.wux-button--error.wux-button--outline.wux-button--hover {
   background-color: #f65656!important;
   color: #fff!important
 }
-.wux-button--assertive.wux-button--clear,
-.wux-button--assertive.wux-button--clear.wux-button--disabled {
+.wux-button--error.wux-button--clear,
+.wux-button--error.wux-button--clear.wux-button--disabled {
   background-color: transparent!important;
   color: #f32626!important
 }
-.wux-button--assertive.wux-button--clear.wux-button--hover {
+.wux-button--error.wux-button--clear.wux-button--hover {
   opacity: .3!important
 }
-.wux-button--balanced,
-.wux-button--balanced--disabled {
+.wux-button--success,
+.wux-button--success--disabled {
   border-color: transparent!important;
   background-color: #6abf40!important;
   color: #fff!important
 }
-.wux-button--balanced.wux-button--hover {
+.wux-button--success.wux-button--hover {
   background-color: #593!important;
   color: #fff!important
 }
-.wux-button--balanced.wux-button--outline,
-.wux-button--balanced.wux-button--outline.wux-button--disabled {
+.wux-button--success.wux-button--outline,
+.wux-button--success.wux-button--outline.wux-button--disabled {
   border-color: #6abf40!important;
   background-color: transparent!important;
   color: #6abf40!important
 }
-.wux-button--balanced.wux-button--outline.wux-button--hover {
+.wux-button--success.wux-button--outline.wux-button--hover {
   background-color: #6abf40!important;
   color: #fff!important
 }
-.wux-button--balanced.wux-button--clear,
-.wux-button--balanced.wux-button--clear.wux-button--disabled {
+.wux-button--success.wux-button--clear,
+.wux-button--success.wux-button--clear.wux-button--disabled {
   background-color: transparent!important;
   color: #593!important
 }
-.wux-button--balanced.wux-button--clear.wux-button--hover {
+.wux-button--success.wux-button--clear.wux-button--hover {
   opacity: .3!important
 }
-.wux-button--energized,
-.wux-button--energized--disabled {
+.wux-button--warning,
+.wux-button--warning--disabled {
   border-color: transparent!important;
   background-color: #ffa900!important;
   color: #fff!important
 }
-.wux-button--energized.wux-button--hover {
+.wux-button--warning.wux-button--hover {
   background-color: #cc8700!important;
   color: #fff!important
 }
-.wux-button--energized.wux-button--outline,
-.wux-button--energized.wux-button--outline.wux-button--disabled {
+.wux-button--warning.wux-button--outline,
+.wux-button--warning.wux-button--outline.wux-button--disabled {
   border-color: #ffa900!important;
   background-color: transparent!important;
   color: #ffa900!important
 }
-.wux-button--energized.wux-button--outline.wux-button--hover {
+.wux-button--warning.wux-button--outline.wux-button--hover {
   background-color: #ffa900!important;
   color: #fff!important
 }
-.wux-button--energized.wux-button--clear,
-.wux-button--energized.wux-button--clear.wux-button--disabled {
+.wux-button--warning.wux-button--clear,
+.wux-button--warning.wux-button--clear.wux-button--disabled {
   background-color: transparent!important;
   color: #cc8700!important
 }
-.wux-button--energized.wux-button--clear.wux-button--hover {
+.wux-button--warning.wux-button--clear.wux-button--hover {
   opacity: .3!important
 }
 .wux-button--royal,

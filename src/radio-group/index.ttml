@@ -10,7 +10,7 @@
             value="{{ option.value }}"
             checked="{{ inputValue === option.value }}"
             disabled="{{ option.disabled }}"
-            color="{{ option.color || 'balanced' }}"
+            color="{{ option.color || 'success' }}"
             data-index="{{ index }}"
             bind:change="onRadioChange"
         />

@@ -12,20 +12,20 @@
                 <wux-cell title="Stable">
                     <wux-switch name="stable" slot="footer" color="stable" value="{{ value1 }}" bind:change="onChange1" />
                 </wux-cell>
-                <wux-cell title="Positive">
-                    <wux-switch name="positive" slot="footer" color="positive" value="{{ value1 }}" bind:change="onChange1" />
+                <wux-cell title="primary">
+                    <wux-switch name="primary" slot="footer" color="primary" value="{{ value1 }}" bind:change="onChange1" />
                 </wux-cell>
-                <wux-cell title="Calm">
-                    <wux-switch name="calm" slot="footer" color="calm" value="{{ value1 }}" bind:change="onChange1" />
+                <wux-cell title="info">
+                    <wux-switch name="info" slot="footer" color="info" value="{{ value1 }}" bind:change="onChange1" />
                 </wux-cell>
-                <wux-cell title="Balanced">
-                    <wux-switch name="balanced" slot="footer" color="balanced" value="{{ value1 }}" bind:change="onChange1" />
+                <wux-cell title="success">
+                    <wux-switch name="success" slot="footer" color="success" value="{{ value1 }}" bind:change="onChange1" />
                 </wux-cell>
-                <wux-cell title="Energized">
-                    <wux-switch name="energized" slot="footer" color="energized" value="{{ value1 }}" bind:change="onChange1" />
+                <wux-cell title="warning">
+                    <wux-switch name="warning" slot="footer" color="warning" value="{{ value1 }}" bind:change="onChange1" />
                 </wux-cell>
-                <wux-cell title="Assertive">
-                    <wux-switch name="assertive" slot="footer" color="assertive" value="{{ value1 }}" bind:change="onChange1" />
+                <wux-cell title="error">
+                    <wux-switch name="error" slot="footer" color="error" value="{{ value1 }}" bind:change="onChange1" />
                 </wux-cell>
                 <wux-cell title="Royal">
                     <wux-switch name="royal" slot="footer" color="royal" value="{{ value1 }}" bind:change="onChange1" />

@@ -7,20 +7,20 @@
         <view class="sub-title">Checkbox & Radio</view>
         <wux-selectable color="light" value="1" defaultChecked />
         <wux-selectable color="stable" value="2" defaultChecked />
-        <wux-selectable color="positive" value="3" defaultChecked />
-        <wux-selectable color="calm" value="4" />
-        <wux-selectable color="balanced" value="5" />
-        <wux-selectable color="energized" value="6" />
-        <wux-selectable color="assertive" value="7" disabled />
+        <wux-selectable color="primary" value="3" defaultChecked />
+        <wux-selectable color="info" value="4" />
+        <wux-selectable color="success" value="5" />
+        <wux-selectable color="warning" value="6" />
+        <wux-selectable color="error" value="7" disabled />
         <wux-selectable color="royal" value="8" disabled />
         <wux-selectable color="dark" value="9" disabled />
         <wux-selectable type="radio" color="light" value="1" defaultChecked />
         <wux-selectable type="radio" color="stable" value="2" defaultChecked />
-        <wux-selectable type="radio" color="positive" value="3" defaultChecked />
-        <wux-selectable type="radio" color="calm" value="4" defaultChecked />
-        <wux-selectable type="radio" color="balanced" value="5" defaultChecked />
-        <wux-selectable type="radio" color="energized" value="6" defaultChecked />
-        <wux-selectable type="radio" color="assertive" value="7" disabled defaultChecked />
+        <wux-selectable type="radio" color="primary" value="3" defaultChecked />
+        <wux-selectable type="radio" color="info" value="4" defaultChecked />
+        <wux-selectable type="radio" color="success" value="5" defaultChecked />
+        <wux-selectable type="radio" color="warning" value="6" defaultChecked />
+        <wux-selectable type="radio" color="error" value="7" disabled defaultChecked />
         <wux-selectable type="radio" color="royal" value="8" disabled defaultChecked />
         <wux-selectable type="radio" color="dark" value="9" disabled defaultChecked />
         <view class="sub-title">Controlled</view>

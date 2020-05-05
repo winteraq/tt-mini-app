@@ -34,23 +34,23 @@
   color: #fff;
   background-color: #b2b2b2
 }
-.wux-alert--positive {
+.wux-alert--primary {
   color: #fff;
   background-color: #4164ff
 }
-.wux-alert--calm {
+.wux-alert--info {
   color: #fff;
   background-color: #10d5d5
 }
-.wux-alert--assertive {
+.wux-alert--error {
   color: #fff;
   background-color: #f65656
 }
-.wux-alert--balanced {
+.wux-alert--success {
   color: #fff;
   background-color: #6abf40
 }
-.wux-alert--energized {
+.wux-alert--warning {
   color: #fff;
   background-color: #ffa900
 }

@@ -9,7 +9,7 @@ var isUnitlessNumber = {
     columnCount: true,
     flex: true,
     flexGrow: true,
-    flexPositive: true,
+    flexprimary: true,
     flexShrink: true,
     flexNegative: true,
     fontWeight: true,

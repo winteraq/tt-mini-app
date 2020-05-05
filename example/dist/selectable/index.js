@@ -37,7 +37,7 @@ baseComponent({
         },
         color: {
             type: String,
-            value: 'balanced',
+            value: 'success',
             observer(newVal) {
                 this.setData({
                     inputColor: isPresetColor(newVal),

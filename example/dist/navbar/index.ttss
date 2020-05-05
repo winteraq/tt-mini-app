@@ -42,23 +42,23 @@
   background-color: #f8f8f8;
   color: #444
 }
-.wux-navbar--positive {
+.wux-navbar--primary {
   background-color: #4164ff;
   color: #fff
 }
-.wux-navbar--calm {
+.wux-navbar--info {
   background-color: #10d5d5;
   color: #fff
 }
-.wux-navbar--assertive {
+.wux-navbar--error {
   background-color: #f65656;
   color: #fff
 }
-.wux-navbar--balanced {
+.wux-navbar--success {
   background-color: #6abf40;
   color: #fff
 }
-.wux-navbar--energized {
+.wux-navbar--warning {
   background-color: #ffa900;
   color: #fff
 }

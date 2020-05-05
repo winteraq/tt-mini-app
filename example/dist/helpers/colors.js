@@ -8,11 +8,11 @@
 export const colors = {
     'light': '#ddd',
     'stable': '#b2b2b2',
-    'positive': '#387ef5',
-    'calm': '#11c1f3',
-    'balanced': '#33cd5f',
-    'energized': '#ffc900',
-    'assertive': '#ef473a',
+    'primary': '#387ef5',
+    'info': '#11c1f3',
+    'success': '#33cd5f',
+    'warning': '#ffc900',
+    'error': '#ef473a',
     'royal': '#886aea',
     'dark': '#444',
 }

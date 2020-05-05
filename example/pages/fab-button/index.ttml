@@ -6,7 +6,7 @@
     <view class="page__bd">
         <wux-fab-button
             position="topLeft"
-            theme="balanced"
+            theme="success"
             direction="horizontal"
             reverse
             buttons="{{ buttons }}"
@@ -18,7 +18,7 @@
 
         <wux-fab-button
             position="topRight"
-            theme="balanced"
+            theme="success"
             direction="vertical"
             reverse
             buttons="{{ buttons }}"
@@ -30,7 +30,7 @@
 
         <wux-fab-button
             position="bottomLeft"
-            theme="balanced"
+            theme="success"
             direction="vertical"
             buttons="{{ buttons }}"
             bind:change="onChange"
@@ -41,7 +41,7 @@
 
         <wux-fab-button
             position="center"
-            theme="balanced"
+            theme="success"
             direction="circle"
             buttons="{{ buttons }}"
             bind:change="onChange"
@@ -52,7 +52,7 @@
 
         <wux-fab-button
             position="bottomRight"
-            theme="balanced"
+            theme="success"
             direction="horizontal"
             buttons="{{ buttons }}"
             bind:change="onChange"

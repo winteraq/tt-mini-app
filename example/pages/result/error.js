@@ -7,7 +7,7 @@ Page({
             color: '#ef473a',
         },
         buttons: [{
-            type: 'balanced',
+            type: 'success',
             block: true,
             text: '确定',
         },

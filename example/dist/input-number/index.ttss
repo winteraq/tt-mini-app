@@ -74,34 +74,34 @@
 .wux-input-number--circle .wux-input-number__selector--stable {
   border-color: #b2b2b2
 }
-.wux-input-number .wux-input-number__selector--positive {
+.wux-input-number .wux-input-number__selector--primary {
   color: #4164ff
 }
-.wux-input-number--circle .wux-input-number__selector--positive {
+.wux-input-number--circle .wux-input-number__selector--primary {
   border-color: #4164ff
 }
-.wux-input-number .wux-input-number__selector--calm {
+.wux-input-number .wux-input-number__selector--info {
   color: #10d5d5
 }
-.wux-input-number--circle .wux-input-number__selector--calm {
+.wux-input-number--circle .wux-input-number__selector--info {
   border-color: #10d5d5
 }
-.wux-input-number .wux-input-number__selector--assertive {
+.wux-input-number .wux-input-number__selector--error {
   color: #f65656
 }
-.wux-input-number--circle .wux-input-number__selector--assertive {
+.wux-input-number--circle .wux-input-number__selector--error {
   border-color: #f65656
 }
-.wux-input-number .wux-input-number__selector--balanced {
+.wux-input-number .wux-input-number__selector--success {
   color: #6abf40
 }
-.wux-input-number--circle .wux-input-number__selector--balanced {
+.wux-input-number--circle .wux-input-number__selector--success {
   border-color: #6abf40
 }
-.wux-input-number .wux-input-number__selector--energized {
+.wux-input-number .wux-input-number__selector--warning {
   color: #ffa900
 }
-.wux-input-number--circle .wux-input-number__selector--energized {
+.wux-input-number--circle .wux-input-number__selector--warning {
   border-color: #ffa900
 }
 .wux-input-number .wux-input-number__selector--royal {

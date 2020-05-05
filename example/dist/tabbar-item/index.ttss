@@ -41,19 +41,19 @@
 .wux-tabbar-item--stable.wux-tabbar-item--current {
   color: #b2b2b2
 }
-.wux-tabbar-item--positive.wux-tabbar-item--current {
+.wux-tabbar-item--primary.wux-tabbar-item--current {
   color: #4164ff
 }
-.wux-tabbar-item--calm.wux-tabbar-item--current {
+.wux-tabbar-item--info.wux-tabbar-item--current {
   color: #10d5d5
 }
-.wux-tabbar-item--assertive.wux-tabbar-item--current {
+.wux-tabbar-item--error.wux-tabbar-item--current {
   color: #f65656
 }
-.wux-tabbar-item--balanced.wux-tabbar-item--current {
+.wux-tabbar-item--success.wux-tabbar-item--current {
   color: #6abf40
 }
-.wux-tabbar-item--energized.wux-tabbar-item--current {
+.wux-tabbar-item--warning.wux-tabbar-item--current {
   color: #ffa900
 }
 .wux-tabbar-item--royal.wux-tabbar-item--current {

@@ -23,7 +23,7 @@ baseComponent({
         },
         theme: {
             type: String,
-            value: 'balanced',
+            value: 'success',
         },
         position: {
             type: String,

@@ -8,11 +8,11 @@
             <wux-checkbox-group name="a" value="{{ value1 }}" title="Default" bind:change="onChange1">
                 <wux-checkbox color="light" title="Light" value="1" />
                 <wux-checkbox color="stable" title="Stable" value="2" />
-                <wux-checkbox color="positive" title="Positive" value="3" />
-                <wux-checkbox color="calm" title="Calm" value="4" />
-                <wux-checkbox color="balanced" title="Balanced" value="5" />
-                <wux-checkbox color="energized" title="Energized" value="6" />
-                <wux-checkbox color="assertive" title="Assertive" value="7" />
+                <wux-checkbox color="primary" title="primary" value="3" />
+                <wux-checkbox color="info" title="info" value="4" />
+                <wux-checkbox color="success" title="success" value="5" />
+                <wux-checkbox color="warning" title="warning" value="6" />
+                <wux-checkbox color="error" title="error" value="7" />
                 <wux-checkbox color="royal" title="Royal" value="8" />
                 <wux-checkbox color="dark" title="Dark" value="9" />
             </wux-checkbox-group>

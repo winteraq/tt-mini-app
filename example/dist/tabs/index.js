@@ -55,7 +55,7 @@ baseComponent({
         },
         theme: {
             type: String,
-            value: 'balanced',
+            value: 'success',
         },
         direction: {
             type: String,

@@ -57,34 +57,34 @@
 .wux-tabs__tab--stable.wux-tabs__tab--current {
   color: #b2b2b2
 }
-.wux-tabs__tab--positive .wux-tabs__tab-bar {
+.wux-tabs__tab--primary .wux-tabs__tab-bar {
   background: #4164ff
 }
-.wux-tabs__tab--positive.wux-tabs__tab--current {
+.wux-tabs__tab--primary.wux-tabs__tab--current {
   color: #4164ff
 }
-.wux-tabs__tab--calm .wux-tabs__tab-bar {
+.wux-tabs__tab--info .wux-tabs__tab-bar {
   background: #10d5d5
 }
-.wux-tabs__tab--calm.wux-tabs__tab--current {
+.wux-tabs__tab--info.wux-tabs__tab--current {
   color: #10d5d5
 }
-.wux-tabs__tab--assertive .wux-tabs__tab-bar {
+.wux-tabs__tab--error .wux-tabs__tab-bar {
   background: #f65656
 }
-.wux-tabs__tab--assertive.wux-tabs__tab--current {
+.wux-tabs__tab--error.wux-tabs__tab--current {
   color: #f65656
 }
-.wux-tabs__tab--balanced .wux-tabs__tab-bar {
+.wux-tabs__tab--success .wux-tabs__tab-bar {
   background: #6abf40
 }
-.wux-tabs__tab--balanced.wux-tabs__tab--current {
+.wux-tabs__tab--success.wux-tabs__tab--current {
   color: #6abf40
 }
-.wux-tabs__tab--energized .wux-tabs__tab-bar {
+.wux-tabs__tab--warning .wux-tabs__tab-bar {
   background: #ffa900
 }
-.wux-tabs__tab--energized.wux-tabs__tab--current {
+.wux-tabs__tab--warning.wux-tabs__tab--current {
   color: #ffa900
 }
 .wux-tabs__tab--royal .wux-tabs__tab-bar {

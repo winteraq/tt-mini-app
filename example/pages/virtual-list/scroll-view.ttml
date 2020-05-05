@@ -14,7 +14,7 @@
                 <wux-input type="number" label="ScrollToIndex" defaultValue="{{ scrollToIndex }}" data-meta="scrollToIndex" bind:blur="onInputBlur" />
             </wux-cell>
             <wux-cell title="ScrollWithAnimation">
-                <wux-switch slot="footer" color="balanced" value="{{ scrollWithAnimation }}" data-meta="scrollWithAnimation" bind:change="onSwicth" />
+                <wux-switch slot="footer" color="success" value="{{ scrollWithAnimation }}" data-meta="scrollWithAnimation" bind:change="onSwicth" />
             </wux-cell>
         </wux-cell-group>
         <view class="main">

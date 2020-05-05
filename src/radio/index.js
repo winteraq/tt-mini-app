@@ -51,7 +51,7 @@ baseComponent({
         },
         color: {
             type: String,
-            value: 'balanced',
+            value: 'success',
         },
     },
     data: {

@@ -1,5 +1,6 @@
 <wux-cell-group id="wux-cell-group" wux-class="{{ prefixCls }}" prefixCls="{{ cellGroupPrefixCls }}" title="{{ title }}" label="{{ label }}">
-    <block tt:for="{{ common.getOptions(options) }}" tt:for-item="option" tt:key="" tt:if="{{ options.length > 0 }}">
+    <block tt:for="{{ common.getOptions(options) }}"
+           tt:for-item="option" tt:if="{{ options.length > 0 }}">
         <wux-checkbox
             prefixCls="{{ option.prefixCls || 'wux-checkbox' }}"
             cellPrefixCls="{{ option.cellPrefixCls || 'wux-cell' }}"
@@ -10,7 +11,7 @@
             value="{{ option.value }}"
             checked="{{ common.getChecked(inputValue, option) }}"
             disabled="{{ option.disabled }}"
-            color="{{ option.color || 'balanced' }}"
+            color="{{ option.color || 'success' }}"
             data-index="{{ index }}"
             bind:change="onCheckboxChange"
         />

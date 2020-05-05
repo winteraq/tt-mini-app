@@ -3,7 +3,7 @@
 Page({
     data: {
         buttons: [{
-            type: 'balanced',
+            type: 'success',
             block: true,
             text: '确定',
         },

@@ -40,49 +40,49 @@
 .wux-stable--border {
   border-color: #f8f8f8!important
 }
-.wux-positive {
+.wux-primary {
   color: #4164ff!important
 }
-.wux-positive--bg {
+.wux-primary--bg {
   background-color: #4164ff!important
 }
-.wux-positive--border {
+.wux-primary--border {
   border-color: #4164ff!important
 }
-.wux-calm {
+.wux-info {
   color: #10d5d5!important
 }
-.wux-calm--bg {
+.wux-info--bg {
   background-color: #10d5d5!important
 }
-.wux-calm--border {
+.wux-info--border {
   border-color: #10d5d5!important
 }
-.wux-balanced {
+.wux-success {
   color: #6abf40!important
 }
-.wux-balanced--bg {
+.wux-success--bg {
   background-color: #6abf40!important
 }
-.wux-balanced--border {
+.wux-success--border {
   border-color: #6abf40!important
 }
-.wux-energized {
+.wux-warning {
   color: #ffa900!important
 }
-.wux-energized--bg {
+.wux-warning--bg {
   background-color: #ffa900!important
 }
-.wux-energized--border {
+.wux-warning--border {
   border-color: #ffa900!important
 }
-.wux-assertive {
+.wux-error {
   color: #f65656!important
 }
-.wux-assertive--bg {
+.wux-error--bg {
   background-color: #f65656!important
 }
-.wux-assertive--border {
+.wux-error--border {
   border-color: #f65656!important
 }
 .wux-royal {

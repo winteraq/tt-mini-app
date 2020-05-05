@@ -9,7 +9,7 @@ baseComponent({
         },
         theme: {
             type: String,
-            value: 'balanced',
+            value: 'success',
         },
         defaultCurrent: {
             type: Number,

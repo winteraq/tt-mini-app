@@ -31,7 +31,7 @@ baseComponent({
         },
         theme: {
             type: String,
-            value: 'balanced',
+            value: 'success',
         },
         backgroundColor: {
             type: String,
@@ -123,7 +123,7 @@ baseComponent({
                     tabbarStyle[field] = `${safeAreaInset[position]}px`
                 }
             }
-            
+
             this.setData({
                 tabbarStyle: styleToCssString(tabbarStyle),
             })

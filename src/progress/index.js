@@ -4,10 +4,10 @@ import styleToCssString from '../helpers/styleToCssString'
 import { colors } from '../helpers/colors'
 
 const defaultColors = {
-    normal: colors.positive,
-    progress: colors.positive,
-    error: colors.assertive,
-    success: colors.balanced,
+    normal: colors.primary,
+    progress: colors.primary,
+    error: colors.error,
+    success: colors.success,
 }
 
 baseComponent({

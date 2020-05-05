@@ -9,11 +9,11 @@
     	<view class="sub-title">Theme</view>
     	<wux-segmented-control theme="light" values="{{ ['Segment1', 'Segment2'] }}" />
     	<wux-segmented-control theme="stable" values="{{ ['Segment1', 'Segment2'] }}" />
-    	<wux-segmented-control theme="positive" values="{{ ['Segment1', 'Segment2'] }}" />
-    	<wux-segmented-control theme="calm" values="{{ ['Segment1', 'Segment2'] }}" />
-    	<wux-segmented-control theme="balanced" values="{{ ['Segment1', 'Segment2'] }}" />
-    	<wux-segmented-control theme="energized" values="{{ ['Segment1', 'Segment2'] }}" />
-    	<wux-segmented-control theme="assertive" values="{{ ['Segment1', 'Segment2'] }}" />
+    	<wux-segmented-control theme="primary" values="{{ ['Segment1', 'Segment2'] }}" />
+    	<wux-segmented-control theme="info" values="{{ ['Segment1', 'Segment2'] }}" />
+    	<wux-segmented-control theme="success" values="{{ ['Segment1', 'Segment2'] }}" />
+    	<wux-segmented-control theme="warning" values="{{ ['Segment1', 'Segment2'] }}" />
+    	<wux-segmented-control theme="error" values="{{ ['Segment1', 'Segment2'] }}" />
     	<wux-segmented-control theme="royal" values="{{ ['Segment1', 'Segment2'] }}" />
     	<wux-segmented-control theme="dark" values="{{ ['Segment1', 'Segment2'] }}" />
     	<view class="sub-title">Disabled</view>

@@ -7,7 +7,7 @@
         <wux-cell hover-class="none" title="Jack Ma"></wux-cell>
         <wux-cell hover-class="none" title="Pony"></wux-cell>
         <wux-cell hover-class="none">
-            <wux-button block type="balanced" bindtap="close2">Yes</wux-button>
+            <wux-button block type="success" bindtap="close2">Yes</wux-button>
         </wux-cell>
     </wux-cell-group>
 </wux-popup>

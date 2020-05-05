@@ -171,29 +171,29 @@
 .wux-fab-button--stable .wux-fab-button__button--disabled {
   background-color: #b2b2b2!important
 }
-.wux-fab-button--positive .wux-fab-button__action,
-.wux-fab-button--positive .wux-fab-button__button,
-.wux-fab-button--positive .wux-fab-button__button--disabled {
+.wux-fab-button--primary .wux-fab-button__action,
+.wux-fab-button--primary .wux-fab-button__button,
+.wux-fab-button--primary .wux-fab-button__button--disabled {
   background-color: #4164ff!important
 }
-.wux-fab-button--calm .wux-fab-button__action,
-.wux-fab-button--calm .wux-fab-button__button,
-.wux-fab-button--calm .wux-fab-button__button--disabled {
+.wux-fab-button--info .wux-fab-button__action,
+.wux-fab-button--info .wux-fab-button__button,
+.wux-fab-button--info .wux-fab-button__button--disabled {
   background-color: #10d5d5!important
 }
-.wux-fab-button--assertive .wux-fab-button__action,
-.wux-fab-button--assertive .wux-fab-button__button,
-.wux-fab-button--assertive .wux-fab-button__button--disabled {
+.wux-fab-button--error .wux-fab-button__action,
+.wux-fab-button--error .wux-fab-button__button,
+.wux-fab-button--error .wux-fab-button__button--disabled {
   background-color: #f65656!important
 }
-.wux-fab-button--balanced .wux-fab-button__action,
-.wux-fab-button--balanced .wux-fab-button__button,
-.wux-fab-button--balanced .wux-fab-button__button--disabled {
+.wux-fab-button--success .wux-fab-button__action,
+.wux-fab-button--success .wux-fab-button__button,
+.wux-fab-button--success .wux-fab-button__button--disabled {
   background-color: #6abf40!important
 }
-.wux-fab-button--energized .wux-fab-button__action,
-.wux-fab-button--energized .wux-fab-button__button,
-.wux-fab-button--energized .wux-fab-button__button--disabled {
+.wux-fab-button--warning .wux-fab-button__action,
+.wux-fab-button--warning .wux-fab-button__button,
+.wux-fab-button--warning .wux-fab-button__button--disabled {
   background-color: #ffa900!important
 }
 .wux-fab-button--royal .wux-fab-button__action,

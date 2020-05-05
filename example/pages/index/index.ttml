@@ -7,8 +7,11 @@
   </view>
   <view class="page-body">
     <block tt:for="{{ components }}">
-      <wux-accordion-group cellGroupPrefixCls="demo-category" defaultCurrent="0">
-        <wux-accordion prefixCls="demo-category-item" key="{{ index }}" title="{{ item.title }}">
+      <wux-accordion-group cellGroupPrefixCls="demo-category" defaultCurrent="{{[0]}}">
+        <wux-accordion prefixCls="demo-category-item"
+                       activeKey="0"
+                       key="{{ index }}"
+                       title="{{ item.title }}">
           <block tt:for="{{ item.children }}" tt:for-item="child">
             <wux-cell prefixCls="demo-category-cell" title="{{ child.title + ' ' + child.remark }}"
                       url="{{ child.url }}" is-link/>

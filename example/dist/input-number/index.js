@@ -88,7 +88,7 @@ baseComponent({
         },
         color: {
             type: String,
-            value: 'balanced',
+            value: 'success',
         },
         controlled: {
             type: Boolean,

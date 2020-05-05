@@ -56,43 +56,43 @@
   background: #ddd;
   color: #fff
 }
-.wux-segment--positive .wux-segment__item {
+.wux-segment--primary .wux-segment__item {
   color: #4164ff;
   border-color: #4164ff
 }
-.wux-segment--positive .wux-segment__item--current {
+.wux-segment--primary .wux-segment__item--current {
   background: #4164ff;
   color: #fff
 }
-.wux-segment--calm .wux-segment__item {
+.wux-segment--info .wux-segment__item {
   color: #10d5d5;
   border-color: #10d5d5
 }
-.wux-segment--calm .wux-segment__item--current {
+.wux-segment--info .wux-segment__item--current {
   background: #10d5d5;
   color: #fff
 }
-.wux-segment--assertive .wux-segment__item {
+.wux-segment--error .wux-segment__item {
   color: #f65656;
   border-color: #f65656
 }
-.wux-segment--assertive .wux-segment__item--current {
+.wux-segment--error .wux-segment__item--current {
   background: #f65656;
   color: #fff
 }
-.wux-segment--balanced .wux-segment__item {
+.wux-segment--success .wux-segment__item {
   color: #6abf40;
   border-color: #6abf40
 }
-.wux-segment--balanced .wux-segment__item--current {
+.wux-segment--success .wux-segment__item--current {
   background: #6abf40;
   color: #fff
 }
-.wux-segment--energized .wux-segment__item {
+.wux-segment--warning .wux-segment__item {
   color: #ffa900;
   border-color: #ffa900
 }
-.wux-segment--energized .wux-segment__item--current {
+.wux-segment--warning .wux-segment__item--current {
   background: #ffa900;
   color: #fff
 }
