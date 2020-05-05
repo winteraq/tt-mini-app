@@ -498,7 +498,7 @@
 .wux-clearfix::after,
 .wux-clearfix::before {
   display: table;
-  content: " "
+  content: ' '
 }
 .wux-clearfix::after {
   clear: both
@@ -548,7 +548,7 @@
 .wux-hairline--top::after,
 .wux-hairline--vertical::after,
 .wux-hairline::after {
-  content: " ";
+  content: ' ';
   position: absolute;
   top: 0;
   left: 0;
@@ -561,23 +561,23 @@
   border: 0 solid #d9d9d9
 }
 .wux-hairline--top::after {
-  border-top-width: 1PX
+  border-top-width: 2rpx
 }
 .wux-hairline--right::after {
-  border-right-width: 1PX
+  border-right-width: 2rpx
 }
 .wux-hairline--bottom::after {
-  border-bottom-width: 1PX
+  border-bottom-width: 2rpx
 }
 .wux-hairline--left::after {
-  border-left-width: 1PX
+  border-left-width: 2rpx
 }
 .wux-hairline--horizontal::after {
-  border-width: 1PX 0
+  border-width: 2rpx 0
 }
 .wux-hairline--vertical::after {
-  border-width: 0 1PX
+  border-width: 0 2rpx
 }
 .wux-hairline--surrounded::after {
-  border-width: 1PX
+  border-width: 2rpx
 }

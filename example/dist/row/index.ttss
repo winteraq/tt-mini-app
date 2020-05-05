@@ -1,7 +1,7 @@
 .wux-row::after,
 .wux-row::before {
   display: table;
-  content: " "
+  content: ' '
 }
 .wux-row::after {
   clear: both

@@ -41,7 +41,7 @@
   transform-origin: 0 0
 }
 .wux-button::after {
-  content: " ";
+  content: ' ';
   width: 100%;
   height: 100%;
   position: absolute;

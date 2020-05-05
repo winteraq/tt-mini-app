@@ -9,7 +9,6 @@
 var EAN13, pluginName
 
 pluginName = null
-
 ;('use strict')
 
 EAN13 = (function () {

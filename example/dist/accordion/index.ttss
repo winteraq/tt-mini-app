@@ -15,12 +15,12 @@
   align-items: center
 }
 .wux-accordion__hd::after {
-  content: " ";
+  content: ' ';
   position: absolute;
   bottom: 0;
   right: 0;
-  height: 1PX;
-  border-bottom: 1PX solid #d9d9d9;
+  height: 2rpx;
+  border-bottom: 2rpx solid #d9d9d9;
   color: #d9d9d9;
   transform-origin: 0 100%;
   transform: scaleY(.5);
@@ -36,7 +36,7 @@
   display: inline-block;
   width: 30rpx;
   height: 30rpx;
-  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%2216%22%20height%3D%2226%22%20viewBox%3D%220%200%2016%2026%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M2%200L0%202l11.5%2011L0%2024l2%202%2014-13z%22%20fill%3D%22%23c7c7cc%22%20fill-rule%3D%22evenodd%22%2F%3E%3C%2Fsvg%3E");
+  background-image: url('data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%2216%22%20height%3D%2226%22%20viewBox%3D%220%200%2016%2026%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M2%200L0%202l11.5%2011L0%2024l2%202%2014-13z%22%20fill%3D%22%23c7c7cc%22%20fill-rule%3D%22evenodd%22%2F%3E%3C%2Fsvg%3E');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -60,12 +60,12 @@
   padding: 30rpx
 }
 .wux-accordion__bd::after {
-  content: " ";
+  content: ' ';
   position: absolute;
   bottom: 0;
   right: 0;
-  height: 1PX;
-  border-bottom: 1PX solid #d9d9d9;
+  height: 2rpx;
+  border-bottom: 2rpx solid #d9d9d9;
   color: #d9d9d9;
   transform-origin: 0 100%;
   transform: scaleY(.5);

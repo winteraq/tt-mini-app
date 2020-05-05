@@ -7,13 +7,13 @@
   background: #f7f7f8
 }
 .wux-date-picker__toolbar::before {
-  content: " ";
+  content: ' ';
   position: absolute;
   left: 0;
   top: 0;
   right: 0;
-  height: 1PX;
-  border-top: 1PX solid #d9d9d9;
+  height: 2rpx;
+  border-top: 2rpx solid #d9d9d9;
   color: #d9d9d9;
   transform-origin: 0 0;
   transform: scaleY(.5)

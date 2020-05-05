@@ -16,7 +16,7 @@
   border-radius: 8rpx
 }
 .wux-image--thumbnail::after {
-  content: " ";
+  content: ' ';
   position: absolute;
   top: 0;
   left: 0;
@@ -27,7 +27,7 @@
   pointer-events: none;
   box-sizing: border-box;
   border: 0 solid #d9d9d9;
-  border-width: 1PX;
+  border-width: 2rpx;
   border-radius: 16rpx
 }
 .wux-image--thumbnail .wux-image__inner,

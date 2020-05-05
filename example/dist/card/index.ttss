@@ -12,7 +12,7 @@
   border-radius: 20rpx
 }
 .wux-card--bordered::before {
-  content: " ";
+  content: ' ';
   position: absolute;
   top: 0;
   left: 0;
@@ -24,10 +24,10 @@
   box-sizing: border-box;
   border: 0 solid #d9d9d9;
   border-radius: 20rpx;
-  border-top-width: 1PX;
-  border-right-width: 1PX;
-  border-bottom-width: 1PX;
-  border-left-width: 1PX
+  border-top-width: 2rpx;
+  border-right-width: 2rpx;
+  border-bottom-width: 2rpx;
+  border-left-width: 2rpx
 }
 .wux-card--full::before {
   border-radius: 0;
@@ -47,13 +47,13 @@
   align-items: center
 }
 .wux-card__hd::before {
-  content: " ";
+  content: ' ';
   position: absolute;
   left: 0;
   bottom: 0;
   right: 0;
-  height: 1PX;
-  border-bottom: 1PX solid #d9d9d9;
+  height: 2rpx;
+  border-bottom: 2rpx solid #d9d9d9;
   color: #d9d9d9;
   transform-origin: 0 100%;
   transform: scaleY(.5)
@@ -107,13 +107,13 @@
   align-items: center
 }
 .wux-card__actions::before {
-  content: " ";
+  content: ' ';
   position: absolute;
   left: 0;
   top: 0;
   right: 0;
-  height: 1PX;
-  border-top: 1PX solid #d9d9d9;
+  height: 2rpx;
+  border-top: 2rpx solid #d9d9d9;
   color: #d9d9d9;
   transform-origin: 0 0;
   transform: scaleY(.5)
@@ -127,13 +127,13 @@
   text-align: center
 }
 .wux-card__action::before {
-  content: " ";
+  content: ' ';
   position: absolute;
   right: 0;
   top: 0;
-  width: 1PX;
+  width: 2rpx;
   bottom: 0;
-  border-right: 1PX solid #d9d9d9;
+  border-right: 2rpx solid #d9d9d9;
   color: #d9d9d9;
   transform-origin: 100% 0;
   transform: scaleX(.5)

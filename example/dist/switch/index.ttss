@@ -10,7 +10,7 @@
   transition: background-color .1s,border .1s
 }
 .wux-switch__input::before {
-  content: " ";
+  content: ' ';
   position: absolute;
   top: 0;
   left: 0;
@@ -21,7 +21,7 @@
   transition: transform .35s cubic-bezier(.45,1,.4,1)
 }
 .wux-switch__input::after {
-  content: " ";
+  content: ' ';
   position: absolute;
   top: 0;
   left: 0;

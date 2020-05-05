@@ -21,7 +21,7 @@
   text-align: left
 }
 .wux-popover::after {
-  content: "";
+  content: '';
   position: absolute;
   background: rgba(255,255,255,.01)
 }
@@ -100,13 +100,13 @@
   font-weight: 500
 }
 .wux-popover__title::after {
-  content: " ";
+  content: ' ';
   position: absolute;
   left: 0;
   bottom: 0;
   right: 0;
-  height: 1PX;
-  border-bottom: 1PX solid #d9d9d9;
+  height: 2rpx;
+  border-bottom: 2rpx solid #d9d9d9;
   color: #d9d9d9;
   transform-origin: 0 100%;
   transform: scaleY(.5)

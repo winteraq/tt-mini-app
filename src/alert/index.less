@@ -2,48 +2,48 @@
 @import '../styles/themes/index.less';
 
 .alert(@theme, @bg-color) {
-    &--@{theme} {
-        color: @alert-color;
-        background-color: @bg-color;
-    }
+  &--@{theme} {
+    color: @alert-color;
+    background-color: @bg-color;
+  }
 }
 
 .@{wux-prefix}-alert {
-    padding: 10px 15px;
-    position: relative;
-    display: flex;
-    align-items: center;
-    border-radius: @alert-border-radius;
-    font-size: @alert-font-size;
+  padding: 10px 15px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  border-radius: @alert-border-radius;
+  font-size: @alert-font-size;
 
-    &__thumb {
-        .square(@alert-thumb-size);
+  &__thumb {
+    .square(@alert-thumb-size);
 
-        display: block;
-        margin-right: @alert-thumb-margin;
-    }
+    display: block;
+    margin-right: @alert-thumb-margin;
+  }
 
-    &__bd {
-        flex: 1;
-    }
+  &__bd {
+    flex: 1;
+  }
 
-    &__text {
-        text-align: left;
-    }
+  &__text {
+    text-align: left;
+  }
 
-    &__desc {
-        text-align: left;
-        line-height: 1.2;
-        font-size: 12px;
-    }
+  &__desc {
+    text-align: left;
+    line-height: 1.2;
+    font-size: 12px;
+  }
 
-    .alert(light, @alert-light-bg);
-    .alert(stable, @alert-stable-bg);
-    .alert(primary, @alert-primary-bg);
-    .alert(info, @alert-info-bg);
-    .alert(error, @alert-error-bg);
-    .alert(success, @alert-success-bg);
-    .alert(warning, @alert-warning-bg);
-    .alert(royal, @alert-royal-bg);
-    .alert(dark, @alert-dark-bg);
+  .alert(light, @alert-light-bg);
+  .alert(stable, @alert-stable-bg);
+  .alert(primary, @alert-primary-bg);
+  .alert(info, @alert-info-bg);
+  .alert(error, @alert-error-bg);
+  .alert(success, @alert-success-bg);
+  .alert(warning, @alert-warning-bg);
+  .alert(royal, @alert-royal-bg);
+  .alert(dark, @alert-dark-bg);
 }

@@ -8,61 +8,61 @@
 
 // mixin to iterate over colors and create CSS class for each one
 .make-color-classes(@i: length(@preset-classnames)) when (@i > 0) {
-    .make-color-classes(@i - 1);
-    @classname: extract(@preset-classnames, @i);
-    @darkColor: extract(@preset-colors, @i);
-    @lightColor: fade(@darkColor, 6);
-    @lightBorderColor: fade(@darkColor, 30);
+  .make-color-classes(@i - 1);
+  @classname: extract(@preset-classnames, @i);
+  @darkColor: extract(@preset-colors, @i);
+  @lightColor: fade(@darkColor, 6);
+  @lightBorderColor: fade(@darkColor, 30);
 
-    &--@{classname} {
-        color: @darkColor;
-        background: @lightColor;
-        border-color: @lightBorderColor;
-    }
+  &--@{classname} {
+    color: @darkColor;
+    background: @lightColor;
+    border-color: @lightBorderColor;
+  }
 
-    &--@{classname}-inverse {
-        color: @text-color-inverse;
-        background: @darkColor;
-        border-color: @darkColor;
-    }
+  &--@{classname}-inverse {
+    color: @text-color-inverse;
+    background: @darkColor;
+    border-color: @darkColor;
+  }
 }
 
 .@{wux-prefix}-tag {
-    color: @tag-default-color;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: inline-flex;
-    align-items: center;
-    line-height: 20px;
-    height: 22px;
-    padding: 0 7px;
-    border-radius: @border-radius-base;
-    border: @border-width-base @border-style-base @border-color-base;
-    background: @tag-default-bg;
-    font-size: @tag-font-size;
-    transition: all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
-    opacity: 1;
-    margin-right: 8px;
-    cursor: pointer;
-    white-space: nowrap;
+  color: @tag-default-color;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: inline-flex;
+  align-items: center;
+  line-height: 20px;
+  height: 22px;
+  padding: 0 7px;
+  border-radius: @border-radius-base;
+  border: @border-width-base @border-style-base @border-color-base;
+  background: @tag-default-bg;
+  font-size: @tag-font-size;
+  transition: all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+  opacity: 1;
+  margin-right: 8px;
+  cursor: pointer;
+  white-space: nowrap;
 
-    &--hover {
-        opacity: 0.85;
-    }
+  &--hover {
+    opacity: 0.85;
+  }
 
-    &__icon {
-        display: inline-block;
-        width: 10px;
-        height: 10px;
-        margin-left: @margin-component-base;
-        background-repeat: no-repeat;
-        background-position: 0 0;
-        background-size: contain;
+  &__icon {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-left: @margin-component-base;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: contain;
 
-        .encoded-svg-background(delete);
-    }
+    .encoded-svg-background(delete);
+  }
 
-    .make-color-classes();
+  .make-color-classes();
 }

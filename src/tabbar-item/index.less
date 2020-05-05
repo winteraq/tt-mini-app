@@ -2,52 +2,52 @@
 @import '../styles/themes/index.less';
 
 .tabbar-style(@theme, @color) {
-    &--@{theme}&--current {
-        color: @color;
-    }
+  &--@{theme}&--current {
+    color: @color;
+  }
 }
 
 .@{wux-prefix}-tabbar-item {
-    flex: 1;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  color: @tabbar-default-color;
+  padding: 3px 0 0;
+  box-sizing: border-box;
+  float: left;
+
+  &__icon {
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  }
+
+  &__title {
+    font-size: @tabbar-font-size;
+    margin: 3px 0 0;
+    line-height: 1;
     text-align: center;
-    width: 100%;
-    height: 100%;
-    color: @tabbar-default-color;
-    padding: 3px 0 0;
-    box-sizing: border-box;
-    float: left;
+  }
 
-    &__icon {
-        display: flex;
-        justify-content: center;
-    }
+  &--current {
+    color: @tabbar-success-bg;
+  }
 
-    &__title {
-        font-size: @tabbar-font-size;
-        margin: 3px 0 0;
-        line-height: 1;
-        text-align: center;
-    }
+  &--disabled {
+    opacity: @disabled-opacity;
+  }
 
-    &--current {
-        color: @tabbar-success-bg;
-    }
-
-    &--disabled {
-        opacity: @disabled-opacity;
-    }
-
-    .tabbar-style(light, @tabbar-light-bg);
-    .tabbar-style(stable, @tabbar-stable-bg);
-    .tabbar-style(primary, @tabbar-primary-bg);
-    .tabbar-style(info, @tabbar-info-bg);
-    .tabbar-style(error, @tabbar-error-bg);
-    .tabbar-style(success, @tabbar-success-bg);
-    .tabbar-style(warning, @tabbar-warning-bg);
-    .tabbar-style(royal, @tabbar-royal-bg);
-    .tabbar-style(dark, @tabbar-dark-bg);
+  .tabbar-style(light, @tabbar-light-bg);
+  .tabbar-style(stable, @tabbar-stable-bg);
+  .tabbar-style(primary, @tabbar-primary-bg);
+  .tabbar-style(info, @tabbar-info-bg);
+  .tabbar-style(error, @tabbar-error-bg);
+  .tabbar-style(success, @tabbar-success-bg);
+  .tabbar-style(warning, @tabbar-warning-bg);
+  .tabbar-style(royal, @tabbar-royal-bg);
+  .tabbar-style(dark, @tabbar-dark-bg);
 }

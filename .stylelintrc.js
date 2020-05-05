@@ -13,7 +13,7 @@ module.exports = {
         ignoreTypes: ['/page/'],
       },
     ],
-    indentation: 4,
+    indentation: 2,
     'declaration-block-trailing-semicolon': 'always',
     'block-closing-brace-newline-before': 'always',
     'unit-case': null,

@@ -11,7 +11,7 @@
 .wux-rater::after,
 .wux-rater::before {
   display: table;
-  content: " "
+  content: ' '
 }
 .wux-rater::after {
   clear: both

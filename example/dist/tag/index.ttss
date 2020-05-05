@@ -12,7 +12,7 @@
   height: 44rpx;
   padding: 0 14rpx;
   border-radius: 8rpx;
-  border: 1PX solid #e8e8e8;
+  border: 2rpx solid #e8e8e8;
   background: #fafafa;
   font-size: 24rpx;
   transition: all .3s cubic-bezier(.215,.61,.355,1);
@@ -32,7 +32,7 @@
   background-repeat: no-repeat;
   background-position: 0 0;
   background-size: contain;
-  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%2230%22%20height%3D%2230%22%20viewBox%3D%220%200%2030%2030%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22%23888%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22M1.414%200l28.284%2028.284-1.414%201.414L0%201.414z%22%2F%3E%3Cpath%20d%3D%22M28.284%200L0%2028.284l1.414%201.414L29.698%201.414z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E")
+  background-image: url('data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%2230%22%20height%3D%2230%22%20viewBox%3D%220%200%2030%2030%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22%23888%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22M1.414%200l28.284%2028.284-1.414%201.414L0%201.414z%22%2F%3E%3Cpath%20d%3D%22M28.284%200L0%2028.284l1.414%201.414L29.698%201.414z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E')
 }
 .wux-tag--pink {
   color: #eb2f96;

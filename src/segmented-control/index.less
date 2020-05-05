@@ -2,66 +2,66 @@
 @import '../styles/themes/index.less';
 
 .segment(@theme, @color) {
-    &--@{theme} &__item {
-        color: @color;
-        border-color: @color;
+  &--@{theme} &__item {
+    color: @color;
+    border-color: @color;
 
-        &--current {
-            background: @color;
-            color: @segment-default-color;
-        }
+    &--current {
+      background: @color;
+      color: @segment-default-color;
     }
+  }
 }
 
 .@{wux-prefix}-segment {
+  display: flex;
+  border-radius: @segment-radius;
+  overflow: hidden;
+  min-height: @segment-size;
+  opacity: 1;
+  margin: @segment-margin;
+
+  &--disabled {
+    opacity: @disabled-opacity;
+  }
+
+  &__item {
     display: flex;
-    border-radius: @segment-radius;
-    overflow: hidden;
-    min-height: @segment-size;
-    opacity: 1;
-    margin: @segment-margin;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    color: @segment-success-bg;
+    font-size: @segment-font-size;
+    line-height: 1;
+    transition: background 0.3s;
+    position: relative;
+    border: 1px solid @segment-success-bg;
+    width: 100%;
+    box-sizing: border-box;
+    border-left-width: 0;
 
-    &--disabled {
-        opacity: @disabled-opacity;
+    &:first-child {
+      border-left-width: 1px;
+      border-radius: @segment-radius 0 0 @segment-radius;
     }
 
-    &__item {
-        display: flex;
-        flex: 1;
-        justify-content: center;
-        align-items: center;
-        color: @segment-success-bg;
-        font-size: @segment-font-size;
-        line-height: 1;
-        transition: background 0.3s;
-        position: relative;
-        border: 1px solid @segment-success-bg;
-        width: 100%;
-        box-sizing: border-box;
-        border-left-width: 0;
-
-        &:first-child {
-            border-left-width: 1px;
-            border-radius: @segment-radius 0 0 @segment-radius;
-        }
-
-        &:last-child {
-            border-radius: 0 @segment-radius @segment-radius 0;
-        }
-
-        &--current {
-            background: @segment-success-bg;
-            color: @segment-default-color;
-        }
+    &:last-child {
+      border-radius: 0 @segment-radius @segment-radius 0;
     }
 
-    .segment(light, @segment-light-bg);
-    .segment(stable, @segment-light-bg);
-    .segment(primary, @segment-primary-bg);
-    .segment(info, @segment-info-bg);
-    .segment(error, @segment-error-bg);
-    .segment(success, @segment-success-bg);
-    .segment(warning, @segment-warning-bg);
-    .segment(royal, @segment-royal-bg);
-    .segment(dark, @segment-dark-bg);
+    &--current {
+      background: @segment-success-bg;
+      color: @segment-default-color;
+    }
+  }
+
+  .segment(light, @segment-light-bg);
+  .segment(stable, @segment-light-bg);
+  .segment(primary, @segment-primary-bg);
+  .segment(info, @segment-info-bg);
+  .segment(error, @segment-error-bg);
+  .segment(success, @segment-success-bg);
+  .segment(warning, @segment-warning-bg);
+  .segment(royal, @segment-royal-bg);
+  .segment(dark, @segment-dark-bg);
 }

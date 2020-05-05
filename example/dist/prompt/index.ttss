@@ -33,7 +33,7 @@
   margin: 8rpx auto;
   width: 200rpx;
   padding: 4rpx 0;
-  border: 1PX solid #e8e8e8
+  border: 2rpx solid #e8e8e8
 }
 .wux-prompt__button::after {
   display: none

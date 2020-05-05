@@ -52,7 +52,7 @@
   margin-top: 20rpx
 }
 .wux-dialog__prompt::after {
-  content: " ";
+  content: ' ';
   position: absolute;
   top: 0;
   left: 0;
@@ -63,10 +63,10 @@
   pointer-events: none;
   box-sizing: border-box;
   border: 0 solid #d9d9d9;
-  border-top-width: 1PX;
-  border-right-width: 1PX;
-  border-bottom-width: 1PX;
-  border-left-width: 1PX;
+  border-top-width: 2rpx;
+  border-right-width: 2rpx;
+  border-bottom-width: 2rpx;
+  border-left-width: 2rpx;
   border-radius: 12rpx
 }
 .wux-dialog__input {
@@ -84,13 +84,13 @@
   flex: 1
 }
 .wux-dialog__buttons--horizontal .wux-dialog__button::after {
-  content: " ";
+  content: ' ';
   position: absolute;
   left: 0;
   top: 0;
-  width: 1PX;
+  width: 2rpx;
   bottom: 0;
-  border-left: 1PX solid #d9d9d9;
+  border-left: 2rpx solid #d9d9d9;
   color: #d9d9d9;
   transform-origin: 0 0;
   transform: scaleX(.5)
@@ -103,13 +103,13 @@
   height: auto
 }
 .wux-dialog__buttons--vertical .wux-dialog__button::after {
-  content: " ";
+  content: ' ';
   position: absolute;
   left: 0;
   top: 0;
   right: 0;
-  height: 1PX;
-  border-top: 1PX solid #d9d9d9;
+  height: 2rpx;
+  border-top: 2rpx solid #d9d9d9;
   color: #d9d9d9;
   transform-origin: 0 0;
   transform: scaleY(.5)
