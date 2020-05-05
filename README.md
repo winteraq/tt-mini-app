@@ -1,13 +1,7 @@
-<p align="center">
-    <a href="https://wuxui.com/">
-        <img width="200" src="./screenshots/logo.png">
-    </a>
-</p>
-
 <h1 align="center">头条小程序组件</h1>
 
 <div align="center">
-    <p>一套组件化、可复用、易扩展的微信小程序</p>
+    <p>一套组件化、可复用、易扩展的头条小程序</p>
     <a href="https://github.com/winteraq/tt-mini-app/" target="_blank">
         <img alt="star this repo" src="https://img.shields.io/github/stars/winteraq/tt-mini-app" />
     </a>
@@ -52,7 +46,7 @@
 
 ## 使用之前
 
-在开始使用之前，你需要先阅读 [微信小程序自定义组件](https://developers.weixin.qq.com/miniprogram/dev/framework/custom-component/) 的相关文档。
+在开始使用之前，你需要先阅读 [头条小程序自定义组件](https://open.feishu.cn/document/uYjL24iN/uQDMx4CNwEjL0ATM) 的相关文档。
 
 ## 如何安装
 
