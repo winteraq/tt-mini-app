@@ -1,24 +1,22 @@
-
-
 Page({
-    data: {
-        current: 1,
-    },
-    onLoad() {
-        this.key = Math.floor(Math.random() * 3)
-    },
-    onChange(e) {
-        console.log(e)
+  data: {
+    current: 1,
+  },
+  onLoad() {
+    this.key = Math.floor(Math.random() * 3)
+  },
+  onChange(e) {
+    console.log(e)
 
-        if (e.detail.key === this.key) {
-            return tt.showModal({
-                title: 'No switching is allowed',
-                showCancel: !1,
-            })
-        }
+    if (e.detail.key === this.key) {
+      return tt.showModal({
+        title: 'No switching is allowed',
+        showCancel: !1,
+      })
+    }
 
-        this.setData({
-            current: e.detail.key,
-        })
-    },
+    this.setData({
+      current: e.detail.key,
+    })
+  },
 })

@@ -1,6 +1,6 @@
 {
-    "navigationBarTitleText": "Avatar",
-    "usingComponents": {
-        "wux-avatar": "../../dist/avatar/index"
-    }
+  "navigationBarTitleText": "Avatar",
+  "usingComponents": {
+    "wux-avatar": "../../dist/avatar/index"
+  }
 }

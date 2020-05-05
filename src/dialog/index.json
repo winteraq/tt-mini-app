@@ -1,6 +1,6 @@
 {
-    "component": true,
-    "usingComponents": {
-        "wux-popup": "../popup/index"
-    }
+  "component": true,
+  "usingComponents": {
+    "wux-popup": "../popup/index"
+  }
 }

@@ -1,5 +1,5 @@
-@import "../styles/mixins/index.less";
-@import "../styles/themes/index.less";
+@import '../styles/mixins/index.less';
+@import '../styles/themes/index.less';
 
 .@{wux-prefix}-switch {
     &__input {
@@ -14,26 +14,26 @@
         transition: background-color 0.1s, border 0.1s;
 
         &::before {
-            content: " ";
+            content: ' ';
             position: absolute;
             top: 0;
             left: 0;
             width: 50px;
             height: @switch-height - 2px;
             border-radius: (@switch-height - 2px) / 2;
-            background-color: #FDFDFD;
+            background-color: #fdfdfd;
             transition: transform 0.35s cubic-bezier(0.45, 1, 0.4, 1);
         }
 
         &::after {
-            content: " ";
+            content: ' ';
             position: absolute;
             top: 0;
             left: 0;
             width: @switch-height - 2px;
             height: @switch-height - 2px;
             border-radius: (@switch-height - 2px) / 2;
-            background-color: #FFF;
+            background-color: #fff;
             box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
             transition: transform 0.35s cubic-bezier(0.4, 0.4, 0.25, 1.35);
         }

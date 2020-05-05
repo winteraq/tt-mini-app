@@ -1,5 +1,5 @@
-@import "../styles/mixins/index.less";
-@import "../styles/themes/index.less";
+@import '../styles/mixins/index.less';
+@import '../styles/themes/index.less';
 
 .@{wux-prefix}-keyboard {
     display: block;
@@ -46,14 +46,14 @@
         height: 50px;
 
         &:not(:last-child)::after {
-            content: "";
+            content: '';
             width: 1px;
             height: 50%;
             position: absolute;
             right: 0;
             top: 25%;
             background-color: @border-color-split;
-            transform: scaleX(.5);
+            transform: scaleX(0.5);
         }
     }
 
@@ -125,14 +125,13 @@
             .setTopLine(@border-color-split);
         }
 
-
         &:not(:last-child)::after {
             .setRightLine(@border-color-split);
         }
 
         &--hover {
             background-color: #dedede;
-            color: rgba(0, 0, 0, .6);
+            color: rgba(0, 0, 0, 0.6);
         }
     }
 

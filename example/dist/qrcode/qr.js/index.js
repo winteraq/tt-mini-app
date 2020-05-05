@@ -1,17 +1,18 @@
-var QRCode = require('./lib/QRCode');
-var ErrorCorrectLevel = require('./lib/ErrorCorrectLevel');
+var QRCode = require('./lib/QRCode')
+var ErrorCorrectLevel = require('./lib/ErrorCorrectLevel')
 
-var qrcode = function(data, opt) {
-	opt = opt || {};
-	var qr = new QRCode(opt.typeNumber || -1,
-						opt.errorCorrectLevel || ErrorCorrectLevel.H);
-	qr.addData(data);
-	qr.make();
+var qrcode = function (data, opt) {
+  opt = opt || {}
+  var qr = new QRCode(
+    opt.typeNumber || -1,
+    opt.errorCorrectLevel || ErrorCorrectLevel.H
+  )
+  qr.addData(data)
+  qr.make()
 
-	return qr;
-};
+  return qr
+}
 
-qrcode.ErrorCorrectLevel = ErrorCorrectLevel;
+qrcode.ErrorCorrectLevel = ErrorCorrectLevel
 
-module.exports = qrcode;
-
+module.exports = qrcode

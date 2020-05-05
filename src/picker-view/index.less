@@ -1,5 +1,5 @@
-@import "../styles/mixins/index.less";
-@import "../styles/themes/index.less";
+@import '../styles/mixins/index.less';
+@import '../styles/themes/index.less';
 
 @picker-item-height: 34px;
 
@@ -35,7 +35,13 @@
         top: 0;
         height: 100%;
         margin: 0 auto;
-        background-image: linear-gradient(180deg, hsla(0, 0%, 100%, .95), hsla(0, 0%, 100%, .6)), linear-gradient(0deg, hsla(0, 0%, 100%, .95), hsla(0, 0%, 100%, .6));
+        background-image:
+            linear-gradient(
+                180deg,
+                hsla(0, 0%, 100%, 0.95),
+                hsla(0, 0%, 100%, 0.6)
+            ),
+            linear-gradient(0deg, hsla(0, 0%, 100%, 0.95), hsla(0, 0%, 100%, 0.6));
         background-position: top, bottom;
         background-size: 100% @picker-item-height * 3;
         background-repeat: no-repeat;

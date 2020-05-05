@@ -2,50 +2,53 @@ import baseComponent from '../helpers/baseComponent'
 import classNames from '../helpers/classNames'
 
 baseComponent({
-    relations: {
-        '../sticky-item/index': {
-            type: 'child',
-            observer() {
-                this.debounce(this.updated)
-            },
-        },
+  relations: {
+    '../sticky-item/index': {
+      type: 'child',
+      observer() {
+        this.debounce(this.updated)
+      },
     },
-    properties: {
-        prefixCls: {
-            type: String,
-            value: 'wux-sticky',
-        },
-        scrollTop: {
-            type: Number,
-            value: 0,
-            observer: 'onScroll',
-        },
+  },
+  properties: {
+    prefixCls: {
+      type: String,
+      value: 'wux-sticky',
     },
-    computed: {
-        classes: ['prefixCls', function(prefixCls) {
-            const wrap = classNames(prefixCls)
+    scrollTop: {
+      type: Number,
+      value: 0,
+      observer: 'onScroll',
+    },
+  },
+  computed: {
+    classes: [
+      'prefixCls',
+      function (prefixCls) {
+        const wrap = classNames(prefixCls)
 
-            return {
-                wrap,
-            }
-        }],
+        return {
+          wrap,
+        }
+      },
+    ],
+  },
+  methods: {
+    onScroll(scrollTop = this.data.scrollTop) {
+      const elements = this.getRelationNodes('../sticky-item/index')
+      if (elements.length > 0) {
+        elements.forEach((element, index) => {
+          element.onScroll(scrollTop)
+        })
+      }
     },
-    methods: {
-        onScroll(scrollTop = this.data.scrollTop) {
-            const elements = this.getRelationNodes('../sticky-item/index')
-            if (elements.length > 0) {
-                elements.forEach((element, index) => {
-                    element.onScroll(scrollTop)
-                })
-            }
-        },
-    	updated() {
-    		const elements = this.getRelationNodes('../sticky-item/index')
-            if (elements.length > 0) {
-                elements.forEach((element, index) => {
-				    element.updated(index)
-                })
-            }
-    	},
+    updated() {
+      const elements = this.getRelationNodes('../sticky-item/index')
+      if (elements.length > 0) {
+        elements.forEach((element, index) => {
+          element.updated(index)
+        })
+      }
     },
+  },
 })

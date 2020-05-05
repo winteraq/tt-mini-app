@@ -1,6 +1,6 @@
 {
-    "navigationBarTitleText": "Badge",
-    "usingComponents": {
-        "wux-badge": "../../dist/badge/index"
-    }
+  "navigationBarTitleText": "Badge",
+  "usingComponents": {
+    "wux-badge": "../../dist/badge/index"
+  }
 }

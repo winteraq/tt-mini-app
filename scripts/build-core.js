@@ -8,23 +8,25 @@ const buildPath = `${getOutput()}/core`
 const files = utils.files
 
 const paths = {
-    // styles: {
-    //     src: [`${srcPath}/styles/themes/default.less`],
-    //     dest: buildPath,
-    // },
-    copy: {
-        src: [`${srcPath}/**`],
-        dest: buildPath,
-    },
+  // styles: {
+  //     src: [`${srcPath}/styles/themes/default.less`],
+  //     dest: buildPath,
+  // },
+  copy: {
+    src: [`${srcPath}/**`],
+    dest: buildPath,
+  },
 }
 
-paths.copy.src = ['styles', 'helpers', ...files].map((v) => `${srcPath}/${v}/**`)
+paths.copy.src = ['styles', 'helpers', ...files].map(
+  (v) => `${srcPath}/${v}/**`
+)
 
 export default gulp.series(
-    gulp.parallel(
-        utils.copy(paths.copy, srcPath),
-        utils.generateFiles(buildPath, false),
-        utils.generateConfig(buildPath),
-    ),
-    // utils.themes(paths.styles, srcPath),
+  gulp.parallel(
+    utils.copy(paths.copy, srcPath),
+    utils.generateFiles(buildPath, false),
+    utils.generateConfig(buildPath)
+  )
+  // utils.themes(paths.styles, srcPath),
 )

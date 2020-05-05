@@ -1,5 +1,5 @@
-@import "../styles/mixins/index.less";
-@import "../styles/themes/index.less";
+@import '../styles/mixins/index.less';
+@import '../styles/themes/index.less';
 
 .avatar-size(@size) {
     width: @size;
@@ -34,7 +34,13 @@
     }
 
     &--active {
-        background: linear-gradient(90deg, @skeleton-bg 25%, @skeleton-to-bg 37%, @skeleton-bg 63%);
+        background:
+            linear-gradient(
+                90deg,
+                @skeleton-bg 25%,
+                @skeleton-to-bg 37%,
+                @skeleton-bg 63%
+            );
         animation: loading 1.4s ease infinite;
         background-size: 400% 100%;
     }

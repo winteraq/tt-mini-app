@@ -1,6 +1,6 @@
 {
-    "navigationBarTitleText": "PickerView",
-    "usingComponents": {
-        "wux-picker-view": "../../dist/picker-view/index"
-    }
+  "navigationBarTitleText": "PickerView",
+  "usingComponents": {
+    "wux-picker-view": "../../dist/picker-view/index"
+  }
 }

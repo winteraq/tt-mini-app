@@ -1,8 +1,10 @@
-@import "../styles/mixins/index.less";
-@import "../styles/themes/index.less";
+@import '../styles/mixins/index.less';
+@import '../styles/themes/index.less';
 
-@preset-colors: #eb2f96, #eb2f96, #f5222d, #fa541c, #fa8c16, #fadb14, #faad14, #13c2c2, #a0d911, #52c41a, #1890ff, #2f54eb, #722ed1;
-@preset-classnames: pink, magenta, red, volcano, orange, yellow, gold, cyan, lime, green, blue, geekblue, purple;
+@preset-colors: #eb2f96, #eb2f96, #f5222d, #fa541c, #fa8c16, #fadb14, #faad14,
+  #13c2c2, #a0d911, #52c41a, #1890ff, #2f54eb, #722ed1;
+@preset-classnames: pink, magenta, red, volcano, orange, yellow, gold, cyan,
+  lime, green, blue, geekblue, purple;
 
 // mixin to iterate over colors and create CSS class for each one
 .make-color-classes(@i: length(@preset-classnames)) when (@i > 0) {
@@ -40,14 +42,14 @@
     border: @border-width-base @border-style-base @border-color-base;
     background: @tag-default-bg;
     font-size: @tag-font-size;
-    transition: all .3s cubic-bezier(.215, .61, .355, 1);
+    transition: all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
     opacity: 1;
     margin-right: 8px;
     cursor: pointer;
     white-space: nowrap;
 
     &--hover {
-        opacity: .85;
+        opacity: 0.85;
     }
 
     &__icon {

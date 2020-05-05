@@ -1,6 +1,6 @@
 {
-    "navigationBarTitleText": "Gallery",
-    "usingComponents": {
-        "wux-gallery": "../../dist/gallery/index"
-    }
+  "navigationBarTitleText": "Gallery",
+  "usingComponents": {
+    "wux-gallery": "../../dist/gallery/index"
+  }
 }

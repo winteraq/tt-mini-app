@@ -1,5 +1,5 @@
-@import "../styles/mixins/index.less";
-@import "../styles/themes/index.less";
+@import '../styles/mixins/index.less';
+@import '../styles/themes/index.less';
 
 .@{wux-prefix}-spin {
     position: relative;
@@ -63,7 +63,7 @@
         height: 9px;
         border-radius: 100%;
         background-color: @spin-color;
-        transform: scale(.75);
+        transform: scale(0.75);
         display: block;
         position: absolute;
         opacity: @disabled-opacity;
@@ -79,13 +79,13 @@
         &:nth-child(2) {
             right: 0;
             top: 0;
-            animation-delay: .4s;
+            animation-delay: 0.4s;
         }
 
         &:nth-child(3) {
             right: 0;
             bottom: 0;
-            animation-delay: .8s;
+            animation-delay: 0.8s;
         }
 
         &:nth-child(4) {
@@ -101,13 +101,13 @@
 
     &__container {
         position: relative;
-        transition: opacity .3s;
+        transition: opacity 0.3s;
         zoom: 1;
 
         &--blur {
             overflow: hidden;
-            opacity: .5;
-            filter: blur(.5px);
+            opacity: 0.5;
+            filter: blur(0.5px);
             transform: translateZ(0);
 
             /* &:after {

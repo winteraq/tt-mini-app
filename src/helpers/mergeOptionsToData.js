@@ -3,15 +3,15 @@
  * @param {Object} opts
  */
 const mergeOptionsToData = (opts = {}) => {
-    const options = Object.assign({}, opts)
+  const options = Object.assign({}, opts)
 
-    for (const key in options) {
-        if (options.hasOwnProperty(key) && typeof options[key] === 'function') {
-            delete options[key]
-        }
+  for (const key in options) {
+    if (options.hasOwnProperty(key) && typeof options[key] === 'function') {
+      delete options[key]
     }
+  }
 
-    return options
+  return options
 }
 
 export default mergeOptionsToData

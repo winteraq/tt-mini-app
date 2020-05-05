@@ -1,8 +1,8 @@
 {
-    "navigationBarTitleText": "Cascader",
-    "usingComponents": {
-    	"wux-cell-group": "../../dist/cell-group/index",
-        "wux-cell": "../../dist/cell/index",
-        "wux-cascader": "../../dist/cascader/index"
-    }
+  "navigationBarTitleText": "Cascader",
+  "usingComponents": {
+    "wux-cell-group": "../../dist/cell-group/index",
+    "wux-cell": "../../dist/cell/index",
+    "wux-cascader": "../../dist/cascader/index"
+  }
 }

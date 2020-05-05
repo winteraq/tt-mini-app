@@ -1,5 +1,5 @@
-@import "../styles/mixins/index.less";
-@import "../styles/themes/index.less";
+@import '../styles/mixins/index.less';
+@import '../styles/themes/index.less';
 
 .@{wux-prefix}-slider {
     position: relative;
@@ -35,7 +35,7 @@
         width: @slider-handle-size;
         box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
         transform: translate3d(-50%, -50%, 0);
-        transition: transform .2s;
+        transition: transform 0.2s;
 
         &::after {
             content: attr(data-meta);
@@ -50,7 +50,7 @@
             line-height: 1.25;
             padding: 4px 8px;
             border-radius: @slider-radius;
-            background-color: rgba(0, 0, 0, .7);
+            background-color: rgba(0, 0, 0, 0.7);
             white-space: nowrap;
             text-align: center;
             left: 50%;

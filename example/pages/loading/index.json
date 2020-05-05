@@ -1,7 +1,7 @@
 {
-    "navigationBarTitleText": "Loading",
-    "usingComponents": {
-        "wux-button": "../../dist/button/index",
-        "wux-loading": "../../dist/loading/index"
-    }
+  "navigationBarTitleText": "Loading",
+  "usingComponents": {
+    "wux-button": "../../dist/button/index",
+    "wux-loading": "../../dist/loading/index"
+  }
 }

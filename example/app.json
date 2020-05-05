@@ -113,9 +113,7 @@
       }
     ]
   },
-  "requiredBackgroundModes": [
-    "audio"
-  ],
+  "requiredBackgroundModes": ["audio"],
   "debug": true,
   "sitemapLocation": "sitemap.json"
 }

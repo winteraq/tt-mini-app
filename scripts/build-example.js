@@ -19,7 +19,11 @@ const paths = {
     dest: buildPath,
   },
   copy: {
-    src: [`${srcPath}/**`, `!${srcPath}/**/*.less`, `!${srcPath}/icon/fonts/**`],
+    src: [
+      `${srcPath}/**`,
+      `!${srcPath}/**/*.less`,
+      `!${srcPath}/icon/fonts/**`,
+    ],
     dest: buildPath,
   },
   copyExample: {
@@ -29,7 +33,7 @@ const paths = {
   scriptsExample: {
     src: [`${examplePath}/**/*.js`],
     dest: exampleBuildPath,
-  }
+  },
 }
 
 paths.styles.src = [
@@ -58,18 +62,15 @@ const watchFiles = () => {
   gulp.watch(paths.scriptsExample.src, scriptsExample)
 }
 
-export {watchFiles as watch}
+export { watchFiles as watch }
 
 export default gulp.series(
   gulp.parallel(
     styles,
     copy,
     utils.generateFiles(buildPath, false),
-    utils.generateConfig(buildPath),
+    utils.generateConfig(buildPath)
   ),
   colors,
-  gulp.parallel(
-    copyExample,
-    scriptsExample
-  )
+  gulp.parallel(copyExample, scriptsExample)
 )

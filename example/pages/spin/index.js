@@ -1,9 +1,7 @@
-
-
 Page({
-    onClick(e) {
-        this.setData({
-            spinning: !this.data.spinning,
-        })
-    },
+  onClick(e) {
+    this.setData({
+      spinning: !this.data.spinning,
+    })
+  },
 })

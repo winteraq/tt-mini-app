@@ -12,4 +12,8 @@ export const buildExample = example
 export const buildCore = core
 export const buildEs = es
 export const buildLib = lib
-export const build = gulp.series(utils.clean(getOutput()), core, gulp.parallel(es, lib))
+export const build = gulp.series(
+  utils.clean(getOutput()),
+  core,
+  gulp.parallel(es, lib)
+)
