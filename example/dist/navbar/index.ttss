@@ -43,23 +43,23 @@
   color: #444
 }
 .wux-navbar--positive {
-  background-color: #387ef5;
+  background-color: #4164ff;
   color: #fff
 }
 .wux-navbar--calm {
-  background-color: #11c1f3;
+  background-color: #10d5d5;
   color: #fff
 }
 .wux-navbar--assertive {
-  background-color: #ef473a;
+  background-color: #f65656;
   color: #fff
 }
 .wux-navbar--balanced {
-  background-color: #33cd5f;
+  background-color: #6abf40;
   color: #fff
 }
 .wux-navbar--energized {
-  background-color: #ffc900;
+  background-color: #ffa900;
   color: #fff
 }
 .wux-navbar--royal {

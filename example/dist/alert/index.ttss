@@ -36,23 +36,23 @@
 }
 .wux-alert--positive {
   color: #fff;
-  background-color: #387ef5
+  background-color: #4164ff
 }
 .wux-alert--calm {
   color: #fff;
-  background-color: #11c1f3
+  background-color: #10d5d5
 }
 .wux-alert--assertive {
   color: #fff;
-  background-color: #ef473a
+  background-color: #f65656
 }
 .wux-alert--balanced {
   color: #fff;
-  background-color: #33cd5f
+  background-color: #6abf40
 }
 .wux-alert--energized {
   color: #fff;
-  background-color: #ffc900
+  background-color: #ffa900
 }
 .wux-alert--royal {
   color: #fff;

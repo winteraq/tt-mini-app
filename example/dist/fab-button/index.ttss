@@ -37,7 +37,7 @@
   height: 100rpx;
   border-radius: 50%;
   z-index: 1020;
-  background-color: #33cd5f;
+  background-color: #6abf40;
   color: #fff;
   overflow: visible;
   transition-duration: .3s;
@@ -95,7 +95,7 @@
   color: #fff!important;
   border-radius: 50%;
   overflow: visible;
-  background-color: #33cd5f!important;
+  background-color: #6abf40!important;
   transition-duration: .3s;
   display: -ms-flexbox;
   display: flex;
@@ -174,27 +174,27 @@
 .wux-fab-button--positive .wux-fab-button__action,
 .wux-fab-button--positive .wux-fab-button__button,
 .wux-fab-button--positive .wux-fab-button__button--disabled {
-  background-color: #387ef5!important
+  background-color: #4164ff!important
 }
 .wux-fab-button--calm .wux-fab-button__action,
 .wux-fab-button--calm .wux-fab-button__button,
 .wux-fab-button--calm .wux-fab-button__button--disabled {
-  background-color: #11c1f3!important
+  background-color: #10d5d5!important
 }
 .wux-fab-button--assertive .wux-fab-button__action,
 .wux-fab-button--assertive .wux-fab-button__button,
 .wux-fab-button--assertive .wux-fab-button__button--disabled {
-  background-color: #ef473a!important
+  background-color: #f65656!important
 }
 .wux-fab-button--balanced .wux-fab-button__action,
 .wux-fab-button--balanced .wux-fab-button__button,
 .wux-fab-button--balanced .wux-fab-button__button--disabled {
-  background-color: #33cd5f!important
+  background-color: #6abf40!important
 }
 .wux-fab-button--energized .wux-fab-button__action,
 .wux-fab-button--energized .wux-fab-button__button,
 .wux-fab-button--energized .wux-fab-button__button--disabled {
-  background-color: #ffc900!important
+  background-color: #ffa900!important
 }
 .wux-fab-button--royal .wux-fab-button__action,
 .wux-fab-button--royal .wux-fab-button__button,

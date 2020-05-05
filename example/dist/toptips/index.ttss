@@ -19,16 +19,16 @@
   padding: 0 52rpx
 }
 .wux-toptips__content--success {
-  background-color: #33cd5f
+  background-color: #6abf40
 }
 .wux-toptips__content--info {
-  background-color: #387ef5
+  background-color: #4164ff
 }
 .wux-toptips__content--warn {
-  background-color: #ffc900
+  background-color: #ffa900
 }
 .wux-toptips__content--cancel {
-  background-color: #ef473a
+  background-color: #f65656
 }
 .wux-toptips__icon {
   position: absolute;

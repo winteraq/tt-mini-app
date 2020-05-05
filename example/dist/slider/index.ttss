@@ -20,7 +20,7 @@
   left: 0;
   height: 8rpx;
   border-radius: 8rpx;
-  background-color: #33cd5f
+  background-color: #6abf40
 }
 .wux-slider__handle {
   background-color: #fff;

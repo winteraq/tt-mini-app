@@ -61,7 +61,7 @@
   word-wrap: normal
 }
 .wux-cascader__menu--active {
-  color: #ef473a
+  color: #f65656
 }
 .wux-cascader__bd {
   width: 100%;
@@ -120,7 +120,7 @@
   transform: scaleY(.5)
 }
 .wux-cascader__item--active {
-  color: #ef473a
+  color: #f65656
 }
 .wux-cascader__item--disabled {
   opacity: .3

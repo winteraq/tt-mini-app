@@ -4,11 +4,11 @@
 // -------- Colors -----------
 @light: #fff;
 @stable: #f8f8f8;
-@positive: #387ef5;
-@calm: #11c1f3;
-@balanced: #33cd5f;
-@energized: #ffc900;
-@assertive: #ef473a;
+@primary: #4164ff;
+@info: #10D5D5;
+@success: #6ABF40;
+@warning: #FFA900;
+@error: #F65656;
 @royal: #886aea;
 @dark: #444;
 
@@ -127,31 +127,31 @@
 @button-stable-active-bg: darken(@button-stable-bg, 10%);
 @button-stable-active-border: transparent;
 
-@button-positive-bg: @positive;
+@button-positive-bg: @primary;
 @button-positive-text: #fff;
 @button-positive-border: transparent;
 @button-positive-active-bg: darken(@button-positive-bg, 10%);
 @button-positive-active-border: transparent;
 
-@button-calm-bg: @calm;
+@button-calm-bg: @info;
 @button-calm-text: #fff;
 @button-calm-border: transparent;
 @button-calm-active-bg: darken(@button-calm-bg, 10%);
 @button-calm-active-border: transparent;
 
-@button-assertive-bg: @assertive;
+@button-assertive-bg: @error;
 @button-assertive-text: #fff;
 @button-assertive-border: transparent;
 @button-assertive-active-bg: darken(@button-assertive-bg, 10%);
 @button-assertive-active-border: transparent;
 
-@button-balanced-bg: @balanced;
+@button-balanced-bg: @success;
 @button-balanced-text: #fff;
 @button-balanced-border: transparent;
 @button-balanced-active-bg: darken(@button-balanced-bg, 10%);
 @button-balanced-active-border: transparent;
 
-@button-energized-bg: @energized;
+@button-energized-bg: @warning;
 @button-energized-text: #fff;
 @button-energized-border: transparent;
 @button-energized-active-bg: darken(@button-energized-bg, 10%);
@@ -182,7 +182,7 @@
 
 // Progress
 @progress-remaining-color: #f3f3f3;
-@progress-default-color: @balanced;
+@progress-default-color: @success;
 @progress-text-margin: @margin-component-base;
 @progress-radius: 100px;
 
@@ -194,11 +194,11 @@
 @alert-border-radius: @border-radius-sm;
 @alert-light-bg: @light-inverse;
 @alert-stable-bg: @stable-inverse;
-@alert-positive-bg: @positive;
-@alert-calm-bg: @calm;
-@alert-assertive-bg: @assertive;
-@alert-balanced-bg: @balanced;
-@alert-energized-bg: @energized;
+@alert-positive-bg: @primary;
+@alert-calm-bg: @info;
+@alert-assertive-bg: @error;
+@alert-balanced-bg: @success;
+@alert-energized-bg: @warning;
 @alert-royal-bg: @royal;
 @alert-dark-bg: @dark;
 
@@ -228,7 +228,7 @@
 @timeline-width: 2px;
 @timeline-color: @border-color-base;
 @timeline-dot-border-width: 2px;
-@timeline-dot-color: @positive;
+@timeline-dot-color: @primary;
 @timeline-dot-bg: @component-background;
 @timeline-dot-size: 12px;
 
@@ -251,22 +251,22 @@
 @tabs-bar-size: 2px;
 @tabs-bar-light-bg: @light-inverse;
 @tabs-bar-stable-bg: @stable-inverse;
-@tabs-bar-positive-bg: @positive;
-@tabs-bar-calm-bg: @calm;
-@tabs-bar-assertive-bg: @assertive;
-@tabs-bar-balanced-bg: @balanced;
-@tabs-bar-energized-bg: @energized;
+@tabs-bar-positive-bg: @primary;
+@tabs-bar-calm-bg: @info;
+@tabs-bar-assertive-bg: @error;
+@tabs-bar-balanced-bg: @success;
+@tabs-bar-energized-bg: @warning;
 @tabs-bar-royal-bg: @royal;
 @tabs-bar-dark-bg: @dark;
 
 // Switch
 @switch-height: 32px;
 @switch-bg: #dfdfdf;
-@switch-color: @balanced;
+@switch-color: @success;
 
 // Pagination
 @pagination-height: 44px;
-@pagination-color: @positive;
+@pagination-color: @primary;
 @pagination-dot-size: 8px;
 @pagination-dot-margin: @margin-component-sm;
 @pagination-dot-bg: @icon-color-base;
@@ -276,11 +276,11 @@
 @input-number-disabled-color: @icon-color-base;
 @input-number-light-color: @light-inverse;
 @input-number-stable-color: @stable-inverse;
-@input-number-positive-color: @positive;
-@input-number-calm-color: @calm;
-@input-number-assertive-color: @assertive;
-@input-number-balanced-color: @balanced;
-@input-number-energized-color: @energized;
+@input-number-positive-color: @primary;
+@input-number-calm-color: @info;
+@input-number-assertive-color: @error;
+@input-number-balanced-color: @success;
+@input-number-energized-color: @warning;
 @input-number-royal-color: @royal;
 @input-number-dark-color: @dark;
 
@@ -297,18 +297,18 @@
 // Toptips
 @toptips-font-size: @font-size-base;
 @toptips-color: @text-color-inverse;
-@toptips-success-bg: @balanced;
-@toptips-info-bg: @positive;
-@toptips-warn-bg: @energized;
-@toptips-cancel-bg: @assertive;
+@toptips-success-bg: @success;
+@toptips-info-bg: @primary;
+@toptips-warn-bg: @warning;
+@toptips-cancel-bg: @error;
 
 // Steps
 @steps-default-color: @text-color-inverse;
 @steps-default-bg: #e9eaec;
-@steps-process-bg: @positive;
+@steps-process-bg: @primary;
 @steps-wait-bg: @steps-default-bg;
 @steps-finish-bg: @steps-process-bg;
-@steps-error-bg: @assertive;
+@steps-error-bg: @error;
 @steps-line-size: 1px;
 @steps-icon-size: 24px;
 
@@ -324,11 +324,11 @@
 @tabbar-default-color: #80848f;
 @tabbar-light-bg: @light-inverse;
 @tabbar-stable-bg: @stable-inverse;
-@tabbar-positive-bg: @positive;
-@tabbar-calm-bg: @calm;
-@tabbar-assertive-bg: @assertive;
-@tabbar-balanced-bg: @balanced;
-@tabbar-energized-bg: @energized;
+@tabbar-positive-bg: @primary;
+@tabbar-calm-bg: @info;
+@tabbar-assertive-bg: @error;
+@tabbar-balanced-bg: @success;
+@tabbar-energized-bg: @warning;
 @tabbar-royal-bg: @royal;
 @tabbar-dark-bg: @dark;
 
@@ -362,11 +362,11 @@
 @navbar-active-color: @text-color-inverse;
 @navbar-light-bg: @light;
 @navbar-stable-bg: @stable;
-@navbar-positive-bg: @positive;
-@navbar-calm-bg: @calm;
-@navbar-assertive-bg: @assertive;
-@navbar-balanced-bg: @balanced;
-@navbar-energized-bg: @energized;
+@navbar-positive-bg: @primary;
+@navbar-calm-bg: @info;
+@navbar-assertive-bg: @error;
+@navbar-balanced-bg: @success;
+@navbar-energized-bg: @warning;
 @navbar-royal-bg: @royal;
 @navbar-dark-bg: @dark;
 
@@ -386,11 +386,11 @@
 @fab-button-label-padding: 4px @spacing-base;
 @fab-button-light-bg: @light-inverse;
 @fab-button-stable-bg: @stable-inverse;
-@fab-button-positive-bg: @positive;
-@fab-button-calm-bg: @calm;
-@fab-button-assertive-bg: @assertive;
-@fab-button-balanced-bg: @balanced;
-@fab-button-energized-bg: @energized;
+@fab-button-positive-bg: @primary;
+@fab-button-calm-bg: @info;
+@fab-button-assertive-bg: @error;
+@fab-button-balanced-bg: @success;
+@fab-button-energized-bg: @warning;
 @fab-button-royal-bg: @royal;
 @fab-button-dark-bg: @dark;
 
@@ -401,7 +401,7 @@
 @slider-rail-margin: @spacing-lg 0;
 @slider-rail-size: 4px;
 @slider-rail-bg: #e9e9e9;
-@slider-track-bg: @balanced;
+@slider-track-bg: @success;
 @slider-handle-size: 28px;
 @slider-handle-bg: @component-background;
 @slider-mark-bg: @icon-color-base;
@@ -436,11 +436,11 @@
 @segment-default-color: @text-color-inverse;
 @segment-light-bg: @light-inverse;
 @segment-stable-bg: @stable-inverse;
-@segment-positive-bg: @positive;
-@segment-calm-bg: @calm;
-@segment-assertive-bg: @assertive;
-@segment-balanced-bg: @balanced;
-@segment-energized-bg: @energized;
+@segment-positive-bg: @primary;
+@segment-calm-bg: @info;
+@segment-assertive-bg: @error;
+@segment-balanced-bg: @success;
+@segment-energized-bg: @warning;
 @segment-royal-bg: @royal;
 @segment-dark-bg: @dark;
 
@@ -507,7 +507,7 @@
 @cascader-color: #444;
 @cascader-inner-bg: #fff;
 @cascader-item-size: 40px;
-@cascader-item-active-color: @assertive;
+@cascader-item-active-color: @error;
 
 // Cell Group
 @cell-bg: @component-background;

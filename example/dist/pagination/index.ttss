@@ -25,7 +25,7 @@
 }
 .wux-pagination__active {
   display: inline;
-  color: #387ef5
+  color: #4164ff
 }
 .wux-pagination__pointer {
   width: 100%;

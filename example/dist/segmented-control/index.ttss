@@ -19,12 +19,12 @@
   justify-content: center;
   -ms-flex-align: center;
   align-items: center;
-  color: #33cd5f;
+  color: #6abf40;
   font-size: 28rpx;
   line-height: 1;
   transition: background .3s;
   position: relative;
-  border: 2rpx solid #33cd5f;
+  border: 2rpx solid #6abf40;
   width: 100%;
   box-sizing: border-box;
   border-left-width: 0
@@ -37,7 +37,7 @@
   border-radius: 0 12rpx 12rpx 0
 }
 .wux-segment__item--current {
-  background: #33cd5f;
+  background: #6abf40;
   color: #fff
 }
 .wux-segment--light .wux-segment__item {
@@ -57,43 +57,43 @@
   color: #fff
 }
 .wux-segment--positive .wux-segment__item {
-  color: #387ef5;
-  border-color: #387ef5
+  color: #4164ff;
+  border-color: #4164ff
 }
 .wux-segment--positive .wux-segment__item--current {
-  background: #387ef5;
+  background: #4164ff;
   color: #fff
 }
 .wux-segment--calm .wux-segment__item {
-  color: #11c1f3;
-  border-color: #11c1f3
+  color: #10d5d5;
+  border-color: #10d5d5
 }
 .wux-segment--calm .wux-segment__item--current {
-  background: #11c1f3;
+  background: #10d5d5;
   color: #fff
 }
 .wux-segment--assertive .wux-segment__item {
-  color: #ef473a;
-  border-color: #ef473a
+  color: #f65656;
+  border-color: #f65656
 }
 .wux-segment--assertive .wux-segment__item--current {
-  background: #ef473a;
+  background: #f65656;
   color: #fff
 }
 .wux-segment--balanced .wux-segment__item {
-  color: #33cd5f;
-  border-color: #33cd5f
+  color: #6abf40;
+  border-color: #6abf40
 }
 .wux-segment--balanced .wux-segment__item--current {
-  background: #33cd5f;
+  background: #6abf40;
   color: #fff
 }
 .wux-segment--energized .wux-segment__item {
-  color: #ffc900;
-  border-color: #ffc900
+  color: #ffa900;
+  border-color: #ffa900
 }
 .wux-segment--energized .wux-segment__item--current {
-  background: #ffc900;
+  background: #ffa900;
   color: #fff
 }
 .wux-segment--royal .wux-segment__item {

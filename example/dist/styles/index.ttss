@@ -41,49 +41,49 @@
   border-color: #f8f8f8!important
 }
 .wux-positive {
-  color: #387ef5!important
+  color: #4164ff!important
 }
 .wux-positive--bg {
-  background-color: #387ef5!important
+  background-color: #4164ff!important
 }
 .wux-positive--border {
-  border-color: #387ef5!important
+  border-color: #4164ff!important
 }
 .wux-calm {
-  color: #11c1f3!important
+  color: #10d5d5!important
 }
 .wux-calm--bg {
-  background-color: #11c1f3!important
+  background-color: #10d5d5!important
 }
 .wux-calm--border {
-  border-color: #11c1f3!important
+  border-color: #10d5d5!important
 }
 .wux-balanced {
-  color: #33cd5f!important
+  color: #6abf40!important
 }
 .wux-balanced--bg {
-  background-color: #33cd5f!important
+  background-color: #6abf40!important
 }
 .wux-balanced--border {
-  border-color: #33cd5f!important
+  border-color: #6abf40!important
 }
 .wux-energized {
-  color: #ffc900!important
+  color: #ffa900!important
 }
 .wux-energized--bg {
-  background-color: #ffc900!important
+  background-color: #ffa900!important
 }
 .wux-energized--border {
-  border-color: #ffc900!important
+  border-color: #ffa900!important
 }
 .wux-assertive {
-  color: #ef473a!important
+  color: #f65656!important
 }
 .wux-assertive--bg {
-  background-color: #ef473a!important
+  background-color: #f65656!important
 }
 .wux-assertive--border {
-  border-color: #ef473a!important
+  border-color: #f65656!important
 }
 .wux-royal {
   color: #886aea!important

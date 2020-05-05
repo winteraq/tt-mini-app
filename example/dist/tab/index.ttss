@@ -22,7 +22,7 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  background: #33cd5f
+  background: #6abf40
 }
 .wux-tabs__tab--vertical {
   padding: 0 30rpx
@@ -34,7 +34,7 @@
   left: auto
 }
 .wux-tabs__tab--current {
-  color: #33cd5f
+  color: #6abf40
 }
 .wux-tabs__tab--horizontal.wux-tabs__tab--scroll {
   display: -ms-inline-flexbox;
@@ -58,34 +58,34 @@
   color: #b2b2b2
 }
 .wux-tabs__tab--positive .wux-tabs__tab-bar {
-  background: #387ef5
+  background: #4164ff
 }
 .wux-tabs__tab--positive.wux-tabs__tab--current {
-  color: #387ef5
+  color: #4164ff
 }
 .wux-tabs__tab--calm .wux-tabs__tab-bar {
-  background: #11c1f3
+  background: #10d5d5
 }
 .wux-tabs__tab--calm.wux-tabs__tab--current {
-  color: #11c1f3
+  color: #10d5d5
 }
 .wux-tabs__tab--assertive .wux-tabs__tab-bar {
-  background: #ef473a
+  background: #f65656
 }
 .wux-tabs__tab--assertive.wux-tabs__tab--current {
-  color: #ef473a
+  color: #f65656
 }
 .wux-tabs__tab--balanced .wux-tabs__tab-bar {
-  background: #33cd5f
+  background: #6abf40
 }
 .wux-tabs__tab--balanced.wux-tabs__tab--current {
-  color: #33cd5f
+  color: #6abf40
 }
 .wux-tabs__tab--energized .wux-tabs__tab-bar {
-  background: #ffc900
+  background: #ffa900
 }
 .wux-tabs__tab--energized.wux-tabs__tab--current {
-  color: #ffc900
+  color: #ffa900
 }
 .wux-tabs__tab--royal .wux-tabs__tab-bar {
   background: #886aea

@@ -30,7 +30,7 @@
   text-align: center
 }
 .wux-tabbar-item--current {
-  color: #33cd5f
+  color: #6abf40
 }
 .wux-tabbar-item--disabled {
   opacity: .3
@@ -42,19 +42,19 @@
   color: #b2b2b2
 }
 .wux-tabbar-item--positive.wux-tabbar-item--current {
-  color: #387ef5
+  color: #4164ff
 }
 .wux-tabbar-item--calm.wux-tabbar-item--current {
-  color: #11c1f3
+  color: #10d5d5
 }
 .wux-tabbar-item--assertive.wux-tabbar-item--current {
-  color: #ef473a
+  color: #f65656
 }
 .wux-tabbar-item--balanced.wux-tabbar-item--current {
-  color: #33cd5f
+  color: #6abf40
 }
 .wux-tabbar-item--energized.wux-tabbar-item--current {
-  color: #ffc900
+  color: #ffa900
 }
 .wux-tabbar-item--royal.wux-tabbar-item--current {
   color: #886aea

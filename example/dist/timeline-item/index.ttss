@@ -18,9 +18,9 @@
   height: 24rpx;
   background-color: #fff;
   border-radius: 50%;
-  border: 4rpx solid #387ef5;
+  border: 4rpx solid #4164ff;
   position: absolute;
-  color: #387ef5;
+  color: #4164ff;
   box-sizing: border-box
 }
 .wux-timeline-item__dot--custom {

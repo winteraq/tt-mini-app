@@ -123,7 +123,7 @@
   display: block;
   -ms-flex: 1;
   flex: 1;
-  color: #33cd5f;
+  color: #6abf40;
   text-align: center
 }
 .wux-card__action::before {
@@ -145,7 +145,7 @@
   color: #444
 }
 .wux-card__action--primary {
-  color: #33cd5f!important
+  color: #6abf40!important
 }
 .wux-card__action--bold {
   font-weight: 500!important

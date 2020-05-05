@@ -46,5 +46,5 @@
   opacity: .3
 }
 .wux-input--error .wux-input__control {
-  color: #ef473a
+  color: #f65656
 }

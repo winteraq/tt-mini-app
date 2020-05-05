@@ -17,7 +17,7 @@
   display: block;
   -ms-flex: 1;
   flex: 1;
-  color: #33cd5f!important;
+  color: #6abf40!important;
   position: relative
 }
 .wux-dialog__button::after {
@@ -36,7 +36,7 @@
   color: #444!important
 }
 .wux-dialog__button--primary {
-  color: #33cd5f!important
+  color: #6abf40!important
 }
 .wux-dialog__button--bold {
   font-weight: 500!important

@@ -48,7 +48,7 @@
   opacity: .3
 }
 .wux-textarea--error .wux-textarea__control {
-  color: #ef473a
+  color: #f65656
 }
 .wux-textarea__count {
   position: absolute;
