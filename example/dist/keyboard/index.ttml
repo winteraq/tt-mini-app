@@ -1,0 +1,37 @@
+<wux-popup position="bottom" visible="{{ in }}" safeArea="bottom" bind:close="hide">
+    <view class="wux-class {{ classes.wrap }}">
+        <view class="{{ classes.hd }}" tt:if="{{ inputText }}">{{ inputText }}</view>
+        <view class="{{ classes.bd }}">
+            <block tt:for="{{ keys }}" tt:key="index" tt:if="{{ maxlength !== -1 }}">
+                <view class="{{ classes.label }}">
+                    <view class="{{ classes.password }} {{ password ? prefixCls + '__password--dot' : '' }} {{ value.length >= (index + 1) ? prefixCls + '__password--active' : '' }}">
+                        {{ !password ? value[index] : '' }}
+                    </view>
+                </view>
+            </block>
+            <block tt:if="{{ maxlength === -1 }}">
+                <input class="{{ classes.input }}" type="text" value="{{ value }}" password="{{ password }}" disabled></input>
+            </block>
+        </view>
+        <view class="{{ classes.ft }}">
+            <view class="{{ classes.title }}" tt:if="{{ titleText }}">{{ titleText }}</view>
+            <view class="{{ classes.numbers }}">
+                <block tt:for="{{ nums }}" tt:for-item="n" tt:key="index">
+                    <view class="{{ classes.number }}" tt:if="{{ index === 3 }}">
+                        <view class="{{ classes.text }}" hover-class="{{ classes.hover }}" hover-start-time="20" hover-stay-time="170" tt:if="{{ showCancel }}" bindtap="hide">{{ cancelText }}</view>
+                        <view class="{{ classes.text }}" hover-class="{{ classes.hover }}" hover-start-time="20" hover-stay-time="170" tt:else></view>
+                        <block tt:for="{{ n }}" tt:for-item="m" tt:key="index">
+                            <view class="{{ classes.text }}" hover-class="{{ classes.hover }}" hover-start-time="20" hover-stay-time="170" data-value="{{ m }}" bindtap="increase">{{ m }}</view>
+                        </block>
+                        <view class="{{ classes.text }}" bindtap="decrease">×</view>
+                    </view>
+                    <view class="{{ classes.number }}" tt:else>
+                        <block tt:for="{{ n }}" tt:for-item="m" tt:key="index">
+                            <view class="{{ classes.text }}" hover-class="{{ classes.hover }}" hover-start-time="20" hover-stay-time="170" data-value="{{ m }}" bindtap="increase">{{ m }}</view>
+                        </block>
+                    </view>
+                </block>
+            </view>
+        </view>
+    </view>
+</wux-popup>

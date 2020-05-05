@@ -1,0 +1,18 @@
+<view class="wux-class {{ classes.wrap }}">
+    <view class="{{ classes.hd }}" bindtap="onTap">
+        <block tt:if="{{ thumb }}">
+            <image class="{{ classes.thumb }}" src="{{ thumb }}" />
+        </block>
+        <block tt:if="{{ title }}">
+            <view class="{{ classes.title }}">{{ title }}</view>
+        </block>
+        <block tt:else>
+            <slot name="header"></slot>
+        </block>
+        <view class="{{ classes.arrow }}" tt:if="{{ showArrow }}"></view>
+    </view>
+    <view class="{{ classes.bd }}">
+        <view class="{{ classes.content }}" tt:if="{{ content }}">{{ content }}</view>
+        <slot></slot>
+    </view>
+</view>

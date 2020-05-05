@@ -1,0 +1,23 @@
+<view class="page">
+    <view class="page__hd">
+        <view class="page__title">CountDown</view>
+        <view class="page__desc">倒计时</view>
+    </view>
+    <view class="page__bd">
+        <wux-cell-group>
+            <wux-cell hover-class="none">
+                <wux-input label="Mobile" placeholder="Please input mobile" />
+                <view slot="footer" class="vcode-btn" bindtap="vcode">{{ c2 || '获取验证码' }}</view>
+            </wux-cell>
+        </wux-cell-group>
+        <view class="text-center">
+        	<view class="countdown">{{ c1 }}</view>
+        	<view class="countdown">{{ c3 }}</view>
+        </view>
+        <view class="button-sp-area">
+            <wux-button wux-class="btn" type="light" bind:click="stop">Stop</wux-button>
+            <wux-button wux-class="btn" type="light" bind:click="start">Start</wux-button>
+            <wux-button wux-class="btn" type="light" bind:click="update">Update</wux-button>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,18 @@
+<view class="wux-class {{ classes.wrap }}">
+    <view class="{{ classes.hd }}">
+        <view class="{{ classes.title }}" tt:if="{{ title }}">
+            {{ title }}
+        </view>
+        <view class="{{ classes.title }}" tt:else>
+            <slot name="title"></slot>
+        </view>
+    </view>
+    <view class="{{ classes.bd }}">
+        <view class="{{ classes.content }}" tt:if="{{ content }}">
+            {{ content }}
+        </view>
+        <view class="{{ classes.content }}" tt:else>
+            <slot name="content"></slot>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,22 @@
+<template name="actions">
+    <block tt:for="{{ actions }}" tt:for-item="action" tt:key="">
+        <view class="{{ classes.action }} {{ action.className }}" style="{{ action.style }}" data-index="{{ index }}" data-value="{{ action }}" data-type="{{ type }}" catchtap="onTap">
+            <view class="{{ classes.text }}">{{ action.text }}</view>
+        </view>
+    </block>
+</template>
+
+<view class="wux-class {{ classes.wrap }}">
+    <view class="{{ classes.cover }}" hidden="{{ !showCover }}" bindtouchstart="onClose" style="{{ offsetStyle }}"></view>
+    <view class="{{ classes.left }}" tt:if="{{ useSlots || left.length > 0 }}" catchtap="onAcitons">
+        <template is="actions" data="{{ classes, actions: left, type: 'left' }}" tt:if="{{ !useSlots }}" />
+        <slot name="left" tt:else></slot>
+    </view>
+    <view class="{{ classes.right }}" tt:if="{{ useSlots || right.length > 0 }}" catchtap="onAcitons">
+        <template is="actions" data="{{ classes, actions: right, type: 'right' }}" tt:if="{{ !useSlots }}" />
+        <slot name="right" tt:else></slot>
+    </view>
+    <view class="{{ classes.content }}" bindtouchstart="onTouchStart" catchtouchmove="{{ swiping ? 'noop' : '' }}" capture-bind:touchmove="onTouchMove" catchtouchend="onTouchEnd" style="{{ offsetStyle }}">
+        <slot></slot>
+    </view>
+</view>

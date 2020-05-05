@@ -1,0 +1,64 @@
+<view class="page">
+    <view class="page__hd">
+        <view class="page__title">FabButton</view>
+        <view class="page__desc">浮动按钮</view>
+    </view>
+    <view class="page__bd">
+        <wux-fab-button
+            position="topLeft"
+            theme="balanced"
+            direction="horizontal"
+            reverse
+            buttons="{{ buttons }}"
+            bind:change="onChange"
+            bind:click="onClick"
+            bind:contact="onContact"
+            bind:getuserinfo="onGotUserInfo"
+        />
+
+        <wux-fab-button
+            position="topRight"
+            theme="balanced"
+            direction="vertical"
+            reverse
+            buttons="{{ buttons }}"
+            bind:change="onChange"
+            bind:click="onClick"
+            bind:contact="onContact"
+            bind:getuserinfo="onGotUserInfo"
+        />
+
+        <wux-fab-button
+            position="bottomLeft"
+            theme="balanced"
+            direction="vertical"
+            buttons="{{ buttons }}"
+            bind:change="onChange"
+            bind:click="onClick"
+            bind:contact="onContact"
+            bind:getuserinfo="onGotUserInfo"
+        />
+
+        <wux-fab-button
+            position="center"
+            theme="balanced"
+            direction="circle"
+            buttons="{{ buttons }}"
+            bind:change="onChange"
+            bind:click="onClick"
+            bind:contact="onContact"
+            bind:getuserinfo="onGotUserInfo"
+        />
+
+        <wux-fab-button
+            position="bottomRight"
+            theme="balanced"
+            direction="horizontal"
+            buttons="{{ buttons }}"
+            bind:change="onChange"
+            bind:click="onClick"
+            bind:contact="onContact"
+            bind:getuserinfo="onGotUserInfo"
+        />
+    </view>
+</view>

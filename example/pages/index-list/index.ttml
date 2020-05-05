@@ -1,0 +1,5 @@
+<wux-index height="100%" bind:change="onChange">
+    <wux-index-item tt:for="{{ alphabet }}" tt:key="" name="{{ item.initial }}">
+        <view class="demo-item" tt:for="{{ item.cells }}" tt:for-item="cell" tt:key="">{{ cell }}</view>
+    </wux-index-item>
+</wux-index>

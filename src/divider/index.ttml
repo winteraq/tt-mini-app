@@ -1,0 +1,6 @@
+<view class="wux-class {{ classes.wrap }}">
+	<view class="{{ classes.text }}" tt:if="{{ showText }}">
+		{{ text }}
+		<slot></slot>
+	</view>
+</view>

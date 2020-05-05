@@ -1,0 +1,6 @@
+{
+	"navigationBarTitleText": "CountUp",
+    "usingComponents": {
+        "wux-button": "../../dist/button/index"
+    }
+}

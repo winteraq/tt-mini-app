@@ -1,0 +1,4 @@
+<view class="wux-class {{ classes.wrap }} {{ className }}" hover-class="{{ classes.hover }}" style="{{ tagStyle }}" bindtap="onClick" tt:if="{{ tagVisible }}">
+    <slot></slot>
+    <view class="{{ classes.icon }}" catchtap="onClose" tt:if="{{ closable }}"></view>
+</view>

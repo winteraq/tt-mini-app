@@ -1,0 +1,29 @@
+<view class="page">
+    <view class="page__hd">
+        <view class="page__title">AnimationGroup</view>
+        <view class="page__desc">动画组</view>
+    </view>
+    <view class="page__bd">
+        <wux-cell-group>
+            <block tt:for="{{ animations }}" tt:key="">
+                <wux-cell title="{{ item }}" isLink data-index="{{ index }}" bind:click="onClick"></wux-cell>
+            </block>
+        </wux-cell-group>
+        <wux-animation-group
+            wux-class="example"
+            in="{{ example.in }}"
+            enter="{{ example.enter }}"
+            exit="{{ example.exit }}"
+            class-names="{{ example.classNames }}"
+            bind:enter="onEnter"
+            bind:entering="onEntering"
+            bind:entered="onEntered"
+            bind:exit="onExit"
+            bind:exiting="onExiting"
+            bind:exited="onExited"
+            bind:change="onChange"
+        >
+            {{ example.animation }}
+        </wux-animation-group>
+    </view>
+</view>

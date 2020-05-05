@@ -1,0 +1,23 @@
+<view class="wux-class {{ classes.wrap }} {{ className }}" style="width: {{ width }}">
+    <view class="{{ classes.hd }}">
+        <view class="{{ classes.icon }}" tt:if="{{ !hasIcon }}">{{ index + 1 }}</view>
+        <view class="{{ classes.icon }}" tt:else>
+            <wux-icon wux-class="{{ classes.thumb }}" type="{{ thumb }}" size="24" tt:if="{{ thumb }}"></wux-icon>
+        </view>
+    </view>
+    <view class="{{ classes.bd }}">
+        <view class="{{ classes.title }}" tt:if="{{ title }}">
+            {{ title }}
+        </view>
+        <view class="{{ classes.title }}" tt:else>
+            <slot name="title"></slot>
+        </view>
+        <view class="{{ classes.content }}" tt:if="{{ content }}">
+            {{ content }}
+        </view>
+        <view class="{{ classes.content }}" tt:else>
+            <slot name="content"></slot>
+        </view>
+    </view>
+    <view class="{{ classes.ft }}" tt:if="{{ index !== length - 1 }}"></view>
+</view>

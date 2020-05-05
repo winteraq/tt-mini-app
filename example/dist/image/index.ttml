@@ -1,0 +1,24 @@
+<view class="wux-class {{ classes.wrap }}" style="{{ style }}" bindtap="onTap" tt:if="{{ status !== 'unmounted' }}">
+	<view class="{{ classes.inner }}">
+    	<image class="{{ classes.thumb }}" lazy-load="{{ lazyLoad }}" mode="{{ mode }}" src="{{ src }}" bindload="onLoad" binderror="onError" tt:if="{{ src }}" />
+    	<slot></slot>
+    </view>
+	<view class="{{ classes.mask }}" tt:if="{{ status === 'empty' }}">
+    	<view class="{{ classes.text }}" tt:if="{{ empty }}">{{ empty }}</view>
+    	<block tt:else>
+    		<slot name="empty"></slot>
+    	</block>
+    </view>
+    <view class="{{ classes.mask }}" tt:elif="{{ status === 'loading' }}">
+    	<view class="{{ classes.text }}" tt:if="{{ loading }}">{{ loading }}</view>
+    	<block tt:else>
+    		<slot name="loading"></slot>
+    	</block>
+    </view>
+    <view class="{{ classes.mask }}" tt:elif="{{ status === 'error' }}">
+    	<view class="{{ classes.text }}" tt:if="{{ error }}">{{ error }}</view>
+    	<block tt:else>
+    		<slot name="error"></slot>
+    	</block>
+    </view>
+</view>

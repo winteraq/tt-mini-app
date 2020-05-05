@@ -1,0 +1,19 @@
+<view class="page">
+    <view class="page__hd">
+        <view class="page__title">CountUp</view>
+        <view class="page__desc">计数器</view>
+    </view>
+    <view class="page__bd">
+        <view class="text-center">
+        	<view class="countup">{{ c1 }}</view>
+        	<view class="countup">{{ c2 }}</view>
+        	<view class="countup">{{ c3 }}</view>
+        </view>
+        <view class="button-sp-area">
+            <wux-button wux-class="btn" type="light" bind:click="start">Start</wux-button>
+            <wux-button wux-class="btn" type="light" bind:click="pauseResume">Pause/Resume</wux-button>
+            <wux-button wux-class="btn" type="light" bind:click="reset">Reset</wux-button>
+            <wux-button wux-class="btn" type="light" bind:click="update">Update</wux-button>
+        </view>
+    </view>
+</view>

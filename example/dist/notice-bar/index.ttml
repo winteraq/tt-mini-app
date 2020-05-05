@@ -1,0 +1,22 @@
+<view class="wux-class {{ classes.wrap }}" tt:if="{{ visible }}" bindtap="onClick">
+    <view class="{{ classes.hd }}">
+        <image class="{{ classes.icon }}" src="{{ icon }}" tt:if="{{ icon }}" />
+        <block tt:else>
+            <slot name="header"></slot>
+        </block>
+    </view>
+    <view class="{{ classes.bd }}">
+        <view class="{{ classes.container }}">
+            <view class="{{ classes.marquee }}" style="transform: translate3d({{ -animatedWidth + 'px' }}, 0px, 0px)">
+                <block tt:if="{{ content }}">{{ content }}</block>
+                <slot></slot>
+            </view>
+        </view>
+    </view>
+    <view class="{{ classes.ft }}" catchtap="onAction" tt:if="{{ mode === 'closable' || mode === 'link' }}">
+        <image class="{{ classes.action }}" src="{{ action }}" tt:if="{{ action }}" />
+        <block tt:else>
+            <slot name="footer"></slot>
+        </block>
+    </view>
+</view>
