@@ -29,7 +29,7 @@
 .wux-actionsheet__content--theme-wx .wux-actionsheet__button--cancel {
   font-weight: 400
 }
-.wux-actionsheet__content--theme-tt.wux-actionsheet__content--has-cancel {
+.wux-actionsheet__content--theme-wx.wux-actionsheet__content--has-cancel {
   background-color: #efeff4
 }
 .wux-actionsheet__group {

@@ -12,7 +12,7 @@ import autoprefixer from 'autoprefixer'
 import del from 'del'
 import px2Rpx from './px2Rpx'
 import getConfig from './get-core-config'
-import { generateScript, generateStyle, generateColor, getModifyVars, getFilesByNames, mkdirs } from './generate'
+import {generateScript, generateStyle, generateColor, getModifyVars, getFilesByNames, mkdirs} from './generate'
 
 export const config = getConfig()
 export const files = getFilesByNames(config.components || [])
@@ -38,19 +38,19 @@ export const generateFiles = (dest, compress) => {
     if (!compress) {
         return () => (
             gulp.src(tplPath)
-            .pipe(generateScript(files))
-            .pipe(rename({ basename: 'index', extname: '.js' }))
-            .pipe(gulp.dest(dest))
+                .pipe(generateScript(files))
+                .pipe(rename({basename: 'index', extname: '.js'}))
+                .pipe(gulp.dest(dest))
         )
     }
 
     return () => (
         gulp.src(tplPath)
-        .pipe(generateScript(files))
-        .pipe(babel())
-        .pipe(uglify())
-        .pipe(rename({ basename: 'index', extname: '.js' }))
-        .pipe(gulp.dest(dest))
+            .pipe(generateScript(files))
+            .pipe(babel())
+            .pipe(uglify())
+            .pipe(rename({basename: 'index', extname: '.js'}))
+            .pipe(gulp.dest(dest))
     )
 }
 
@@ -60,18 +60,18 @@ export const generateFiles = (dest, compress) => {
 export const generateColors = (paths, base, compress) => {
     if (!compress) {
         return () => (
-            gulp.src(paths.src, { base })
-            .pipe(generateColor(modifyVars))
-            .pipe(gulp.dest(paths.dest))
+            gulp.src(paths.src, {base})
+                .pipe(generateColor(modifyVars))
+                .pipe(gulp.dest(paths.dest))
         )
     }
 
     return () => (
-        gulp.src(paths.src, { base })
-        .pipe(generateColor(modifyVars))
-        .pipe(babel())
-        .pipe(uglify())
-        .pipe(gulp.dest(paths.dest))
+        gulp.src(paths.src, {base})
+            .pipe(generateColor(modifyVars))
+            .pipe(babel())
+            .pipe(uglify())
+            .pipe(gulp.dest(paths.dest))
     )
 }
 
@@ -80,42 +80,42 @@ export const generateColors = (paths, base, compress) => {
  */
 export const themes = (paths, base) => () => (
     gulp
-    .src(paths.src, { base })
-    .pipe(generateStyle(modifyVars))
-    .pipe(gulp.dest(paths.dest))
+        .src(paths.src, {base,since: gulp.lastRun(themes)})
+        .pipe(generateStyle(modifyVars))
+        .pipe(gulp.dest(paths.dest))
 )
 
 /**
  * Clean files
  */
-export const clean = (dest) => () => del([dest])
+export const clean = (dest) => () => del([path.join(dest,'lib'),path.join(dest,'core'),path.join(dest,'es')])
 
 /**
  * Build styles
  */
 export const styles = (paths, base, format) => () => (
     gulp
-    .src(paths.src, { base })
-    .pipe(less({ modifyVars }))
-    .pipe(px2Rpx())
-    .pipe(postcss())
-    .pipe(cleanCSS({ format: format ? false : 'beautify' }))
-    // .pipe(
-    //     cssnano({
-    //         zindex: false,
-    //         autoprefixer: false,
-    //         discardComments: { removeAll: true },
-    //     })
-    // )
-    .pipe(rename({ extname: '.ttss' }))
-    .pipe(gulp.dest(paths.dest))
+        .src(paths.src, {base, since: gulp.lastRun(styles)})
+        .pipe(less({modifyVars}))
+        .pipe(px2Rpx())
+        .pipe(postcss())
+        .pipe(cleanCSS({format: format ? false : 'beautify'}))
+        // .pipe(
+        //     cssnano({
+        //         zindex: false,
+        //         autoprefixer: false,
+        //         discardComments: { removeAll: true },
+        //     })
+        // )
+        .pipe(rename({extname: '.ttss'}))
+        .pipe(gulp.dest(paths.dest))
 )
 
 /**
  * Build scripts
  */
 export const scripts = (paths, base) => () => (
-    gulp.src(paths.src, { base })
+    gulp.src(paths.src, {base, since: gulp.lastRun(scripts)})
         .pipe(babel())
         .pipe(uglify())
         .pipe(gulp.dest(paths.dest))
@@ -125,7 +125,7 @@ export const scripts = (paths, base) => () => (
  * Build scripts
  */
 export const babelOnly = (paths, base) => () => (
-    gulp.src(paths.src, { base })
+    gulp.src(paths.src, {base, since: gulp.lastRun(babelOnly)})
         .pipe(babel())
         .pipe(gulp.dest(paths.dest))
 )
@@ -135,6 +135,6 @@ export const babelOnly = (paths, base) => () => (
  */
 export const copy = (paths, base) => () => (
     gulp
-    .src(paths.src, { base })
-    .pipe(gulp.dest(paths.dest))
+        .src(paths.src, {base, since: gulp.lastRun(copy)})
+        .pipe(gulp.dest(paths.dest))
 )

@@ -74,6 +74,7 @@ baseComponent({
         },
         onTap() {
             const { index, disabled } = this.data
+            console.log(index,disabled,this.getRelationNodes('../accordion-group/index'))
             const parent = this.getRelationNodes('../accordion-group/index')[0]
 
             if (disabled || !parent) return

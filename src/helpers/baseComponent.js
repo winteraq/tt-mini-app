@@ -6,7 +6,7 @@ import funcBehavior from './funcBehavior'
 import compareVersion from './compareVersion'
 
 const { platform, SDKVersion } = tt.getSystemInfoSync()
-const libVersion = '2.6.6'
+const libVersion = '1.5.5'
 
 // check SDKVersion
 if (platform === 'devtools' && compareVersion(SDKVersion, libVersion) < 0) {

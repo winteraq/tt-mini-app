@@ -9,7 +9,7 @@ function getOutput() {
   const env = process.env.NODE_ENV || 'development' || 'dev';
   const args = process.argv;
   let outputArgIndex;
-  let outputPath = path.resolve(__dirname, env === 'production' ? '../packages' : '../example');
+  let outputPath = path.resolve(__dirname, env === 'production' ? '../' : '../example');
   let needToLog;
   args.forEach((arg, argIndex) => {
     if (arg === '--output') outputArgIndex = argIndex;
