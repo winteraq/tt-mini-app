@@ -18,7 +18,9 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
   fi
 
   # remove old builds
-  rm -rf ./packages
+  rm -rf ./lib
+  rm -rf ./es
+  rm -rf ./core
   rm -rf ./example/dist
 
   # build
