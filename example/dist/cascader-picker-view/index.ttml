@@ -13,5 +13,5 @@
     defaultFieldNames="{{ fieldNames }}"
     options="{{ showOptions }}"
     loading="{{ loading }}"
-    bind:valueChange="onValueChange"
+    bindvalueChange="onValueChange"
 />

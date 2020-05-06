@@ -7,7 +7,7 @@
     hasFooter="{{ false }}"
     mask="{{ showMask }}"
     maskClosable="{{ maskClosable }}"
-    bind:close="onClose"
+    bindclose="onClose"
 >
 	<view class="wux-class {{ classes.wrap }}">
 	    <view class="{{ classes.inner }}">

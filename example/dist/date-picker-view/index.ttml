@@ -11,5 +11,5 @@
     maskClass="{{ maskClass }}"
     labelAlign="{{ labelAlign }}"
     options="{{ cols }}"
-    bind:valueChange="onValueChange"
+    bindvalueChange="onValueChange"
 />

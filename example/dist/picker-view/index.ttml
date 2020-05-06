@@ -3,10 +3,10 @@
         class="wux-class {{ classes.wrap }}"
         data-picker-value="{{ inputValue }}"
         style="{{ styles.wrap }}"
-        bind:touchstart="onTouchStart"
+        bindtouchstart="onTouchStart"
         catch:touchmove="onTouchMove"
-        bind:touchend="onTouchEnd"
-        bind:touchcancel="onTouchEnd"
+        bindtouchend="onTouchEnd"
+        bindtouchcancel="onTouchEnd"
     >
         <view class="wux-mask-class {{ maskClass }} {{ classes.mask }}" style="{{ styles.mask }} {{ extMaskStyle }}"></view>
         <view class="wux-indicator-class {{ indicatorClass }} {{ classes.indicator }}" style="{{ styles.indicator }} {{ extIndicatorStyle }}"></view>

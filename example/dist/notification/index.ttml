@@ -1,4 +1,4 @@
-<wux-animation-group wux-class="{{ classes.wrap }}" in="{{ in }}" classNames="{{ classNames }}" bind:click="onClick">
+<wux-animation-group wux-class="{{ classes.wrap }}" in="{{ in }}" classNames="{{ classNames }}" bindclick="onClick">
     <view class="{{ classes.content }}">
         <view class="{{ classes.hd }}" tt:if="{{ image }}">
             <image class="{{ classes.image }}" src="{{ image }}" />

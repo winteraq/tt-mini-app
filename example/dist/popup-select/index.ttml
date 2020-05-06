@@ -5,8 +5,8 @@
     hasFooter="{{ false }}"
     mountOnEnter="{{ false }}"
     safeArea="bottom"
-    bind:close="close"
-    bind:closed="onClosed"
+    bindclose="close"
+    bindclosed="onClosed"
 >
     <view class="{{ classes.wrap }}" tt:if="{{ mounted }}">
         <view class="{{ classes.toolbar }}" tt:if="{{ toolbar }}" catchtouchmove="noop">
@@ -21,14 +21,14 @@
                 id="wux-select"
                 value="{{ inputValue }}"
                 options="{{ options }}"
-                bind:change="onValueChange"
+                bindchange="onValueChange"
                 tt:if="{{ !multiple }}"
             />
             <wux-checkbox-group
                 id="wux-select"
                 value="{{ inputValue }}"
                 options="{{ options }}"
-                bind:change="onValueChange"
+                bindchange="onValueChange"
                 tt:else
             />
         </scroll-view>

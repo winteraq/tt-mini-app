@@ -1,6 +1,6 @@
-<wux-backdrop id="wux-backdrop" tt:if="{{ mask }}" bind:click="onMaskClick" />
+<wux-backdrop id="wux-backdrop" tt:if="{{ mask }}" bindclick="onMaskClick" />
 <view class="wux-class {{ classes.wrap }}" style="{{ extStyle + popoverStyle }}">
-    <wux-animation-group in="{{ popoverVisible }}" classNames="{{ classNames }}" bind:enter="onEnter">
+    <wux-animation-group in="{{ popoverVisible }}" classNames="{{ classNames }}" bindenter="onEnter">
         <view class="{{ classes.content }}">
             <view class="{{ classes.arrow }}"></view>
             <view class="{{ classes.inner }}">

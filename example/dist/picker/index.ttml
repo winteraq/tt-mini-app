@@ -5,8 +5,8 @@
     hasFooter="{{ false }}"
     mountOnEnter="{{ false }}"
     safeArea="bottom"
-    bind:close="close"
-    bind:closed="onClosed"
+    bindclose="close"
+    bindclosed="onClosed"
 >
     <view class="{{ classes.wrap }}" tt:if="{{ mounted }}">
         <view class="{{ classes.toolbar }}" tt:if="{{ toolbar }}" catchtouchmove="noop">
@@ -32,7 +32,7 @@
             options="{{ options }}"
             loading="{{ loading }}"
             cols="{{ cols }}"
-            bind:valueChange="onValueChange"
+            bindvalueChange="onValueChange"
             tt:if="{{ cascade }}"
         />
         <wux-multi-picker-view
@@ -50,7 +50,7 @@
             defaultFieldNames="{{ fieldNames }}"
             options="{{ options }}"
             loading="{{ loading }}"
-            bind:valueChange="onValueChange"
+            bindvalueChange="onValueChange"
             tt:else
         />
     </view>

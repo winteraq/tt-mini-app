@@ -1,4 +1,4 @@
-<wux-popup wux-content-class="{{ theme === 'ios' ? classes.popup : '' }}" position="bottom" visible="{{ in }}" safeArea="bottom" bind:close="cancel">
+<wux-popup wux-content-class="{{ theme === 'ios' ? classes.popup : '' }}" position="bottom" visible="{{ in }}" safeArea="bottom" bindclose="cancel">
     <view class="wux-class {{ classes.wrap }}">
         <view class="{{ classes.content }}">
             <view class="{{ classes.options }}">

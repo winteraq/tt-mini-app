@@ -1,4 +1,4 @@
-<wux-popup position="bottom" visible="{{ in }}" zIndex="1010" safeArea="bottom" bind:close="close">
+<wux-popup position="bottom" visible="{{ in }}" zIndex="1010" safeArea="bottom" bindclose="close">
     <view class="wux-class {{ classes.wrap }}">
         <view class="{{ classes.content }}">
             <view class="{{ classes.hd }}" tt:if="{{ toolbar }}">

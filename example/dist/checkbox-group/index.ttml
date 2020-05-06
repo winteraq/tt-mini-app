@@ -13,7 +13,7 @@
             disabled="{{ option.disabled }}"
             color="{{ option.color || 'success' }}"
             data-index="{{ index }}"
-            bind:change="onCheckboxChange"
+            bindchange="onCheckboxChange"
         />
     </block>
     <block tt:if="{{ options.length === 0 }}">

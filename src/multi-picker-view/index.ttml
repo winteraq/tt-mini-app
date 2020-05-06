@@ -18,9 +18,9 @@
             options="{{ col }}"
             data-index="{{ index }}"
             style="{{ 'width: ' + 100 / cols.length + '%' }}"
-            bind:beforeChange="onBeforeChange"
-            bind:valueChange="onValueChange"
-            bind:scrollChange="onScrollChange"
+            bindbeforeChange="onBeforeChange"
+            bindvalueChange="onValueChange"
+            bindscrollChange="onScrollChange"
         />
     </view>
 </wux-spin>

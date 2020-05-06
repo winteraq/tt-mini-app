@@ -12,7 +12,7 @@
             disabled="{{ option.disabled }}"
             color="{{ option.color || 'success' }}"
             data-index="{{ index }}"
-            bind:change="onRadioChange"
+            bindchange="onRadioChange"
         />
     </block>
     <block tt:if="{{ options.length === 0 }}">

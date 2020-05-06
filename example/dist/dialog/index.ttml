@@ -4,8 +4,8 @@
     closable="{{ closable }}"
     mask="{{ mask }}"
     mask-closable="{{ maskClosable }}"
-    bind:close="onClose"
-    bind:closed="onClosed"
+    bindclose="onClose"
+    bindclosed="onClosed"
 >
     <view slot="header">{{ title }}</view>
     <view tt:if="{{ content || prompt }}">

@@ -27,19 +27,19 @@
                     hover-start-time="{{ button.hoverStartTime }}"
                     hover-stay-time="{{ button.hoverStayTime }}"
                     lang="{{ button.lang }}"
-                    bind:getuserinfo="bindgetuserinfo"
+                    bindgetuserinfo="bindgetuserinfo"
                     session-from="{{ button.sessionFrom }}"
                     send-message-title="{{ button.sendMessageTitle }}"
                     send-message-path="{{ button.sendMessagePath }}"
                     send-message-img="{{ button.sendMessageImg }}"
                     show-message-card="{{ button.showMessageCard }}"
-                    bind:contact="bindcontact"
-                    bind:getphonenumber="bindgetphonenumber"
+                    bindcontact="bindcontact"
+                    bindgetphonenumber="bindgetphonenumber"
                     app-parameter="{{ button.appParameter }}"
                     binderror="onError"
                     bindopensetting="bindopensetting"
                     data-index="{{ index }}"
-                    bind:click="onClick"
+                    bindclick="onClick"
                 >
                     {{ button.text }}
                 </wux-button>
