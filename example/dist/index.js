@@ -17,7 +17,7 @@ export const getCtx = (selector, ctx = getCurrentPages()[getCurrentPages().lengt
     })
 }
 
-const version = '1.1.2'
+const version = '1.1.3'
 const $wuxActionSheet = (selector = '#wux-actionsheet', ctx) => getCtx(selector, ctx)
 const $wuxBackdrop = (selector = '#wux-backdrop', ctx) => getCtx(selector, ctx)
 const $wuxCalendar = (selector = '#wux-calendar', ctx) => getCtx(selector, ctx)
