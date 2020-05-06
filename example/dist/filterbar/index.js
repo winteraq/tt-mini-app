@@ -466,7 +466,9 @@ baseComponent({
     },
   },
   created() {
-    this.$wuxBackdrop = $wuxBackdrop('#wux-backdrop', this)
+    $wuxBackdrop('#wux-backdrop', this).then((res) => {
+      this.$wuxBackdrop = res
+    })
   },
   attached() {
     const { items: newVal } = this.data

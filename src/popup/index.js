@@ -190,7 +190,9 @@ baseComponent({
   },
   created() {
     if (this.data.mask) {
-      this.$wuxBackdrop = $wuxBackdrop('#wux-backdrop', this)
+      $wuxBackdrop('#wux-backdrop', this).then((res) => {
+        this.$wuxBackdrop = res
+      })
     }
   },
   attached() {

@@ -8,9 +8,9 @@ var version = process.env.VERSION || pkg.version
 
 var IMPORT_SNIPPET = `import {{displayName}} from './{{fileName}}/index'`
 var VAR_SNIPPET = `const {{displayName}} = (selector = '{{selector}}', ctx) => getCtx(selector, ctx)`
-var REFRESHER_VAR_SNIPPET = `const $startWuxRefresher = (selector = '#wux-refresher', ctx) => getCtx(selector, ctx).triggerRefresh()
-const $stopWuxRefresher = (selector = '#wux-refresher', ctx) => getCtx(selector, ctx).finishPullToRefresh()
-const $stopWuxLoader = (selector = '#wux-refresher', ctx, isEnd) => getCtx(selector, ctx).finishLoadmore(isEnd)`
+var REFRESHER_VAR_SNIPPET = `const $startWuxRefresher = (selector = '#wux-refresher', ctx) => getCtx(selector, ctx).then(res=>res.triggerRefresh())
+const $stopWuxRefresher = (selector = '#wux-refresher', ctx) => getCtx(selector, ctx).then(res=>res.finishPullToRefresh())
+const $stopWuxLoader = (selector = '#wux-refresher', ctx, isEnd) => getCtx(selector, ctx).then(res=>res.finishLoadmore(isEnd))`
 var REFRESHER_EXPORT_SNIPPET = [
   '$startWuxRefresher',
   '$stopWuxRefresher',
